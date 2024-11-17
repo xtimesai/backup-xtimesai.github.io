@@ -10,7 +10,7 @@ featured: true
 
 {{< youtube id="qtIqKaDlqXo" >}}
 
-https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
+https://www.youtube.com/watch?v=qtIqKaDlqXo
 
 ## Introduction
 
