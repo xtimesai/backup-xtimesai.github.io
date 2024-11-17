@@ -1,36 +1,85 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
+# Name of the workflow as it will appear in GitHub Actions
+name: Deploy Hugo site to Pages
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Triggers the workflow on push events but only for the main branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+    branches:
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# Sets permissions for the GITHUB_TOKEN
+permissions:
+  contents: write  # Required for checking out the repository
+  pages: write     # Required for deploying to GitHub Pages
+  id-token: write  # Required for authentication
+
+# Define all the jobs that run as part of this workflow
 jobs:
-  # This workflow contains a single job called "build"
+  # Build job
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Step 1: Check out your repository under $GITHUB_WORKSPACE
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use the automatic token for authentication
+      
+      # Step 2: If there are any Git issues, try to clean them up
+      - name: Clean Git Environment
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git reset --hard
+          git clean -fdx
+          
+      # Step 3: Setup Hugo environment
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'  # Use the latest version of Hugo
+          extended: true          # Use Hugo Extended for SASS/SCSS support
+          
+      # Step 4: Configure Git for any Git operations
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+      # Step 5: Check Hugo version (helpful for debugging)
+      - name: Check Hugo Version
+        run: hugo version
+          
+      # Step 6: Build Hugo site
+      - name: Build Hugo Site
+        env:
+          # Add any environment variables your Hugo site needs
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --minify
+          
+      # Step 7: Upload the built site as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public  # The built site files are in the public directory
+          
+  # Deploy job
+  deploy:
+    # Only run deploy after build is successful
+    needs: build
+    runs-on: ubuntu-latest
+    
+    # Specify environment for deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+      # Single step to deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
