@@ -15,7 +15,7 @@
       <link>https://xtimesai.github.io/en/post/2020/jan/syntax/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>https://xtimesai.github.io/en/post/2020/jan/syntax/</guid>
-      <description>Headings&#xA;To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Headings&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.g., ### My Header).&#xA; &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
