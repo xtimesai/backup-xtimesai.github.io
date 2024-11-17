@@ -37,6 +37,10 @@ description="Ai Times Daily"
 lunrSearch = true
 previewCardImagePlacement = "top"
 
+# Add the custom CSS integration
+[Params.assets]
+customCSS = ["css/custom.scss"]
+
 [pagination]
 pagerSize = 6
 
