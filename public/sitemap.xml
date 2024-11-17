@@ -27,22 +27,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/</loc>
-    <lastmod>2024-11-16T06:52:56-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://xtimesai.github.io/en/</loc>
-    <lastmod>2024-11-16T06:52:56-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/personal-video/</loc>
+    <loc>https://xtimesai.github.io/post/2024/personal-video/</loc>
     <lastmod>2024-11-14T14:27:23-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/chatgpt-prompts/</loc>
+    <loc>https://xtimesai.github.io/post/2024/chatgpt-prompts/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -57,7 +47,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/getting-started-with-hugo-a-beginners-guide/</loc>
+    <loc>https://xtimesai.github.io/post/2024/getting-started-with-hugo-a-beginners-guide/</loc>
     <lastmod>2024-11-11T19:05:38-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -87,7 +77,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/how-to-build-a-20k/month-website-business-a-complete-guide/</loc>
+    <loc>https://xtimesai.github.io/post/2024/how-to-build-a-20k/month-website-business-a-complete-guide/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -122,7 +112,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/youtube-test/</loc>
+    <loc>https://xtimesai.github.io/post/2024/youtube-test/</loc>
     <lastmod>2024-11-11T10:07:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -132,7 +122,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/ai%E8%B0%88%E8%AE%BA%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://xtimesai.github.io/post/2024/ai%E8%B0%88%E8%AE%BA%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2024-11-10T19:55:13-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -157,52 +147,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/a-beginners-guide-to-hugo-shortcodes/</loc>
+    <loc>https://xtimesai.github.io/post/2024/a-beginners-guide-to-hugo-shortcodes/</loc>
     <lastmod>2024-11-10T10:07:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://xtimesai.github.io/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2024-11-10T09:07:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/a-beginners-guide-to-markdown-syntax/</loc>
+    <loc>https://xtimesai.github.io/post/2024/a-beginners-guide-to-markdown-syntax/</loc>
     <lastmod>2024-11-10T09:06:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/understanding-markdown--a-beginners-guide/</loc>
+    <loc>https://xtimesai.github.io/post/2024/understanding-markdown--a-beginners-guide/</loc>
     <lastmod>2024-11-10T09:06:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/beginners-guide-to-using-hugo-theme/</loc>
+    <loc>https://xtimesai.github.io/post/2024/beginners-guide-to-using-hugo-theme/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/host-a-static-website-for-free-on-netlify/</loc>
+    <loc>https://xtimesai.github.io/post/2024/host-a-static-website-for-free-on-netlify/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/hugo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://xtimesai.github.io/post/2024/hugo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/youtube-test-copy/</loc>
+    <loc>https://xtimesai.github.io/post/2024/youtube-test-copy/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://xtimesai.github.io/post/2024/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2024/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</loc>
+    <loc>https://xtimesai.github.io/post/2024/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</loc>
     <lastmod>2024-11-09T09:06:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -242,8 +232,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://xtimesai.github.io/en/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://xtimesai.github.io/tags/newsletter/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/</loc>
+    <lastmod>2021-02-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
