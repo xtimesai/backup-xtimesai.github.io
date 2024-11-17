@@ -1,34 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Netlify on X_times_Ai</title><link>https://xtimesai.github.io/tags/netlify/</link><description>Recent content in Netlify on X_times_Ai</description><generator>Hugo</generator><language>en-us</language><managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor><webMaster>johnazureengineer@gmail.com (John Liu)</webMaster><lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://xtimesai.github.io/tags/netlify/index.xml" rel="self" type="application/rss+xml"/><item><title>Host in Netlify</title><link>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</link><pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</guid><description>&lt;p>You can host your static website wth zero cost in &lt;a href="https://www.netlify.com/">Netlify&lt;/a>.&lt;/p>
-&lt;p>Add the below netlify.toml in the root folder.&lt;/p>
-&lt;pre>&lt;code>[build]
-publish = &amp;quot;public&amp;quot;
-command = &amp;quot;hugo --gc --minify&amp;quot;
-
-[context.production.environment]
-HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
-HUGO_ENV = &amp;quot;production&amp;quot;
-HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;
-
-[context.split1]
-command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;
-
-[context.split1.environment]
-HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
-HUGO_ENV = &amp;quot;production&amp;quot;
-
-[context.deploy-preview]
-command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;
-
-[context.deploy-preview.environment]
-HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
-
-[context.branch-deploy]
-command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;
-
-[context.branch-deploy.environment]
-HUGO_VERSION = &amp;quot;0.82.0&amp;quot;
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;
-&lt;/code>&lt;/pre>
-&lt;p>And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on X_times_Ai</title>
+    <link>https://xtimesai.github.io/tags/netlify/</link>
+    <description>Recent content in Netlify on X_times_Ai</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
+    <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
+    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xtimesai.github.io/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Host in Netlify</title>
+      <link>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</guid>
+      <description>&lt;p&gt;You can host your static website wth zero cost in &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Add the below netlify.toml in the root folder.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;[build]&#xD;&#xA;publish = &amp;quot;public&amp;quot;&#xD;&#xA;command = &amp;quot;hugo --gc --minify&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.production.environment]&#xD;&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xD;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xD;&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.split1]&#xD;&#xA;command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.split1.environment]&#xD;&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xD;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.deploy-preview]&#xD;&#xA;command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.deploy-preview.environment]&#xD;&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.branch-deploy]&#xD;&#xA;command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.branch-deploy.environment]&#xD;&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xD;&#xA;&#xD;&#xA;[context.next.environment]&#xD;&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
