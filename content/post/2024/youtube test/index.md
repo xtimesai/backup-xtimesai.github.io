@@ -8,7 +8,7 @@ description: "This is a youtube test blog"
 featured: true
 ---
 
-{{< youtube id="qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3" >}}
+{{< youtube id="qtIqKaDlqXo" >}}
 
 https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
 
