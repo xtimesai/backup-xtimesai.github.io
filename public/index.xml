@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>X times Ai</title>
-    <link>http://localhost:1313/</link>
+    <link>https://xtimesai.github.io/</link>
     <description>Recent content on X times Ai</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
     <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
     <lastBuildDate>Sun, 17 Nov 2024 10:48:12 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xtimesai.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Second Post</title>
-      <link>http://localhost:1313/post/2024/my-second-post/</link>
+      <link>https://xtimesai.github.io/post/2024/my-second-post/</link>
       <pubDate>Sun, 17 Nov 2024 10:48:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>http://localhost:1313/post/2024/my-second-post/</guid>
+      <guid>https://xtimesai.github.io/post/2024/my-second-post/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/post/2024/my-first-post/</link>
+      <link>https://xtimesai.github.io/post/2024/my-first-post/</link>
       <pubDate>Sun, 17 Nov 2024 10:46:50 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>http://localhost:1313/post/2024/my-first-post/</guid>
+      <guid>https://xtimesai.github.io/post/2024/my-first-post/</guid>
       <description></description>
     </item>
   </channel>
