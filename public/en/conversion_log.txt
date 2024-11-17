@@ -1,0 +1,15 @@
+Converted: A Beginner's Guide to Hugo Shortcodes.md -> a-beginner's-guide-to-hugo-shortcodes/index.md
+Converted: A Beginner's Guide to Markdown Syntax.md -> a-beginner's-guide-to-markdown-syntax/index.md
+Converted: AI谈论推荐算法与信息茧房的问题.md -> ai谈论推荐算法与信息茧房的问题/index.md
+Converted: Beginner's Guide to Building a Hugo Blog.md -> beginner's-guide-to-building-a-hugo-blog/index.md
+Converted: Host a Static Website for Free on Netlify.md -> host-a-static-website-for-free-on-netlify/index.md
+Converted: Hugo 博客搭建入门指南.md -> hugo-博客搭建入门指南/index.md
+Converted: Hugo主题使用入门指南.md -> hugo主题使用入门指南/index.md
+Converted: Markdown 语法入门指南.md -> markdown-语法入门指南/index.md
+Converted: Markdown 入门指南：给初学者的详细说明.md -> markdown-入门指南：给初学者的详细说明/index.md
+Converted: Understanding Markdown- A Beginners Guide.md -> understanding-markdown--a-beginners-guide/index.md
+Converted: beginners-guide-to-using-hugo-theme.md -> beginners-guide-to-using-hugo-theme/index.md
+Converted: 在 Netlify 上免费托管您的 Hugo 网站.md -> 在-netlify-上免费托管您的-hugo-网站/index.md
+Conversion completed at Sun Nov 10 21:58:11 EST 2024
+Converted: Youtube-Test-Copy.md -> youtube-test-copy/index.md
+Conversion completed at Mon Nov 11 15:03:21 EST 2024
