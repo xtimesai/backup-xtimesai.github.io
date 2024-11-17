@@ -1,13 +1,11 @@
 ---
-title: "Be Your Own Life Coach"
+title: "Be Your Own Life Coach: 10 Essential Steps to Enjoying a Life You Love"
 date: 2024-11-17T11:11:30-05:00
 description : "10 Essential Steps to Enjoying a Life You Love"
 tags: [""]
 image : ""
 draft: false
 ---
-
-# Be Your Own Life Coach: 10 Essential Steps to Enjoying a Life You Love
 
 Life coaching doesn't always require hiring a professional. With dedication, self-awareness, and the right tools, you can become your own most effective life coach. This guide will walk you through ten essential steps to transform your life and create lasting positive change.
 
