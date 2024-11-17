@@ -2,94 +2,106 @@ baseURL = "https://xtimesai.github.io/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 languageCode = "en-us"
-title = "XtimesAi Coach __self, inspire Next generation"
+title = "Coach yourself & generations"
 theme = "lightbi-hugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 enableRobotsTXT = true
 enableGitInfo = false
-summaryLength = "30"
+summaryLength  = "30"
 ignoreLogs = ['warning-goldmark-raw-html']
-
-# New Disqus configuration
-# [services.disqus]
-# shortname = ""  # If you want to use Disqus, add your shortname here
 
 [pagination]
 pagerSize = 6
 
 [Params]
 selfHosted = true
-mainSections = ["post", "posts"]
+mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
-comments = false  # Set to true if you want to enable comments
+comments = false
 readingTime = false
 wordCount = false
 useHLJS = true
 socialShare = true
-# delayDisqus = true
+delayDisqus = true
 showRelatedPosts = true
-summaryLength = "9"
+summaryLength  = "9"
 lunrSearch = true
 gcse = false
 lastmod = false
 rss = false
 pagination = "10"
 hideAuthor = false
-description = "Your can add your website description here."
-previewCardImagePlacement = "top"
+description="Your can add your website description here."
+previewCardImagePlacement = "bottom"
 
 [Params.Author]
-name = "John Liu"
-website = "https://xtimesai.github.io/"
-authorInfo = "Stay Hungry, Stay Humble."
-authorPostImage = "/img/author-post-img.jpg"
-email = "johnazureengineer@gmail.com"
-facebook = "username"
-instagram = "username"
-youtube = "user/username"
-twitter = "username"
-linkedin = "username"
-github = "xtimesai"
-threads = "username"
-gitlab = "username"
-reddit = "username"
-stackoverflow = "users/XXXXXXX/username"
-snapchat = "username"
-spotify = "username"
-paypal = "username"
-telegram = "username"
-mastodon = "url"
-slack = "username"
-
-# Navigation Menu
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Notes"
-url = "/notes/"
-weight = 2
-
-[[menu.main]]
-name = "Tags"
-url = "/tags/blog/"
-weight = 3
+  name = "Bino Kochumol Varghese"
+  website = "https://www.binovarghese.com/"
+  authorInfo = "Live your life as though every moment matters, because in the end, it's not the years in your life, but the life in your years that counts."
+  authorPostImage = "/img/author-post-img.jpg"
+  email = "sample@gmail.com"
+  facebook = "username"
+  instagram = "username"
+  youtube = "user/username" # or channel/channelname
+  twitter = "username"
+  linkedin = "username"
+  github = "username"
+  threads = "username"
+  gitlab = "username"
+  reddit = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  snapchat = "username"
+  spotify = "username"
+  paypal = "username"
+  telegram = "username"
+  mastodon = "url"
+  slack = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #500px = "username"
+  #kaggle = "username"
+  #weibo = "username"
+  #xing = "username"
+  #bitbucket = "username"
+  #soundcloud = "username"
+  # codepen = "username"
 
 [[menu.main]]
-name = "Collections"
-url = "/collections/"
-weight = 4
+    name = "Home"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
-name = "About"
-url = "/about/"
-weight = 5
+    name = "Notes"
+    url = "/notes/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/blog/"
+    weight = 3
+
+[[menu.main]]
+    name = "Collections"
+    url = "/collections/"
+    weight = 4
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+
 
 [sitemap]
-changefreq = "monthly"
-priority = 0.5
-filename = "sitemap.xml"
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
