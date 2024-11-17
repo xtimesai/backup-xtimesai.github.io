@@ -18,11 +18,11 @@
       <description></description>
     </item>
     <item>
-      <title>My Second Post</title>
+      <title>Windows系统Hugo安装指南</title>
       <link>https://xtimesai.github.io/post/2024/my-second-post/</link>
       <pubDate>Sun, 17 Nov 2024 10:48:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>https://xtimesai.github.io/post/2024/my-second-post/</guid>
-      <description></description>
+      <description>准备工作 在开始安装Hugo之前，我们需要在系统中创建必要的文件夹结构。&#xA;1. 创建基础文件夹 打开文件资源管理器 导航到C盘根目录 (C:) 创建一个名为Hugo的新文件夹(注意首字母大写) 在Hugo文件夹内创建一个名为bin的子文件夹(使用小写) 文件夹结构应该如下：&#xA;C:\Hugo └── bin 下载Hugo 2. 获取Hugo可执行文件 访问Hugo的GitHub发布页面：https://github.com/gohugoio/hugo/releases 找到最新版本的下载区域 根据您的Windows系统选择合适的版本： Windows 64位系统：选择 hugo_X.XX.X_windows-amd64.zip Windows 32位系统：选择 hugo_X.XX.X_windows-386.zip (其中X.XX.X代表版本号) 3. 解压文件 找到下载的zip文件 右键点击zip文件 选择&amp;quot;提取所有&amp;quot; 选择目标路径为：C:\Hugo\bin 点击&amp;quot;提取&amp;quot; 4.</description>
     </item>
     <item>
       <title>My First Post</title>
