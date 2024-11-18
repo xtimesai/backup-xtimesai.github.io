@@ -3,7 +3,7 @@ title: "Creating Your First Hugo Website: A Step-by-Step Guide"
 date: 2024-11-17T18:48:12-05:00
 description : "Windows系统Hugo安装指南..."
 tags: [""]
-image : ""
+image: "/img/posts/img-4.jpg"
 draft: false
 ---
 
