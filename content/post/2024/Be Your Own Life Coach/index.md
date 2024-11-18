@@ -3,7 +3,7 @@ title: "Be Your Own Life Coach: 10 Essential Steps to Enjoying a Life You Love"
 date: 2024-11-17T11:11:30-05:00
 description : "10 Essential Steps to Enjoying a Life You Love"
 tags: ["life coaching", "self-improvement", "personal development"]
-image : /img/life_coach.jpeg
+image : "life_coach.jpeg"
 draft: false
 ---
 
