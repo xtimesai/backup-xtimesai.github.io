@@ -6,7 +6,8 @@ description : "Before starting with Hugo, make sure you have:
 - Basic knowledge of command prompt/terminal
 - A text editor (like VS Code)"
 tags: [""]
-image : "assets/img/posts/Getting started with hugo.jpeg"
+image : "/assets/img/posts/Getting started with hugo.jpeg"
+
 draft: false
 ---
 
