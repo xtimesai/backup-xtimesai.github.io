@@ -3,7 +3,7 @@ title: "Windows系统Hugo安装指南"
 date: 2024-11-17T10:48:12-05:00
 description : "Windows系统Hugo安装指南..."
 tags: [""]
-image : ""
+image : "assets/img/posts/Windows系统Hugo安装指南 cover photo.png"
 draft: false
 ---
 
