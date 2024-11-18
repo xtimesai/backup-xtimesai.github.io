@@ -1,149 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on X times Ai</title><link>https://xtimesai.github.io/tags/tutorial/</link><description>Recent content in Tutorial on X times Ai</description><generator>Hugo</generator><language>en-us</language><managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor><webMaster>johnazureengineer@gmail.com (John Liu)</webMaster><lastBuildDate>Mon, 11 Nov 2024 10:07:12 -0500</lastBuildDate><atom:link href="https://xtimesai.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Hugo | Hugo - Static Site Generator | Tutorial 1</title><link>https://xtimesai.github.io/post/2024/youtube-test/</link><pubDate>Mon, 11 Nov 2024 10:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/youtube-test/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qtIqKaDlqXo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
- &lt;/div>
-
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=qtIqKaDlqXo">https://www.youtube.com/watch?v=qtIqKaDlqXo&lt;/a>&lt;/p>
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>236,467 views Sep 10, 2017
-Hugo Docs - &lt;a href="https://gohugo.io/documentation/">https://gohugo.io/documentation/&lt;/a>&lt;/p></description></item><item><title>A Beginner's Guide to Hugo Shortcodes</title><link>https://xtimesai.github.io/post/2024/a-beginners-guide-to-hugo-shortcodes/</link><pubDate>Sun, 10 Nov 2024 10:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/a-beginners-guide-to-hugo-shortcodes/</guid><description>&lt;h1 id="a-beginners-guide-to-hugo-shortcodes">A Beginner&amp;rsquo;s Guide to Hugo Shortcodes&lt;/h1>
-&lt;h2 id="what-are-hugo-shortcodes">What are Hugo Shortcodes?&lt;/h2>
-&lt;p>Hugo shortcodes are special templates that let you easily add rich content to your website without writing complex HTML code. Think of them as simple shortcuts for inserting things like videos, tweets, and other media into your pages.&lt;/p></description></item><item><title>Markdown 语法入门指南</title><link>https://xtimesai.github.io/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Sun, 10 Nov 2024 09:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="markdown-语法入门指南">Markdown 语法入门指南&lt;/h1>
-&lt;h2 id="目录">目录&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="#markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97">Markdown 语法入门指南&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#%E7%9B%AE%E5%BD%95">目录&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%E6%A0%87%E9%A2%98%E8%AE%BE%E7%BD%AE">标题设置&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%E6%AE%B5%E8%90%BD%E6%A0%BC%E5%BC%8F">段落格式&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%E6%96%87%E5%AD%97%E6%A0%B7%E5%BC%8F">文字样式&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#%E7%B2%97%E4%BD%93%E6%96%87%E6%9C%AC">粗体文本&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%E6%96%9C%E4%BD%93%E6%96%87%E6%9C%AC">斜体文本&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%E7%B2%97%E4%BD%93%E5%92%8C%E6%96%9C%E4%BD%93%E7%BB%84%E5%90%88">粗体和斜体组合&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="#%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5">图片插入&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%E5%AE%9E%E9%99%85%E7%A4%BA%E4%BE%8B">实际示例&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="标题设置">标题设置&lt;/h2>
-&lt;p>标题使用井号（#）创建。井号的数量决定标题的级别：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999"># 一级标题（最大）
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">&lt;/span>&lt;span style="color:#aaa">## 二级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#aaa">### 三级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#aaa">#### 四级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#aaa">##### 五级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#aaa">###### 六级标题（最小）
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>重要提示：&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>井号后必须加一个空格&lt;/li>
-&lt;li>标题级别要按顺序使用（不要从一级标题直接跳到四级标题）&lt;/li>
-&lt;li>每个文档建议只使用一个一级标题&lt;/li>
-&lt;/ul>
-&lt;h2 id="段落格式">段落格式&lt;/h2>
-&lt;p>在 Markdown 中创建段落非常简单，只需要用空行分隔文本：&lt;/p></description></item><item><title>A Beginner's Guide to Markdown Syntax</title><link>https://xtimesai.github.io/post/2024/a-beginners-guide-to-markdown-syntax/</link><pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/a-beginners-guide-to-markdown-syntax/</guid><description>&lt;h1 id="a-beginners-guide-to-markdown-syntax">A Beginner&amp;rsquo;s Guide to Markdown Syntax&lt;/h1>
-&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
-&lt;ol>
-&lt;li>&lt;a href="#headings">Headings&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#paragraphs">Paragraphs&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#text-styling">Text Styling&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#images">Images&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#examples">Examples&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;h2 id="headings">Headings&lt;/h2>
-&lt;p>Headings are created using the hash symbol (#). The number of hashes determines the heading level:&lt;/p></description></item><item><title>Understanding Markdown: A Beginner's Guide</title><link>https://xtimesai.github.io/post/2024/understanding-markdown--a-beginners-guide/</link><pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/understanding-markdown--a-beginners-guide/</guid><description>&lt;h1 id="understanding-markdown-a-beginners-guide">Understanding Markdown: A Beginner&amp;rsquo;s Guide&lt;/h1>
-&lt;h2 id="what-is-markdown">What is Markdown?&lt;/h2>
-&lt;p>Markdown is a simple way to format text that looks great on any device. Think of it as a simplified version of HTML or a smarter way to write for the web.&lt;/p></description></item><item><title>Host a Static Website for Free on Netlify</title><link>https://xtimesai.github.io/post/2024/host-a-static-website-for-free-on-netlify/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/host-a-static-website-for-free-on-netlify/</guid><description>&lt;h1 id="hosting-your-hugo-website-for-free-on-netlify">Hosting Your Hugo Website for Free on Netlify&lt;/h1>
-&lt;h2 id="what-is-netlify">What is Netlify?&lt;/h2>
-&lt;p>Netlify is like a free hosting service for your website - think of it as a place that makes your website available to everyone on the internet. It&amp;rsquo;s especially good for static websites (like those built with Hugo) because:&lt;/p></description></item><item><title>Youtube Test Copy</title><link>https://xtimesai.github.io/post/2024/youtube-test-copy/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/youtube-test-copy/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/L34JL_3Jkyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
- >&lt;/iframe>
- &lt;/div>
-
-&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>As a beginner to Hugo, one of the first things you&amp;rsquo;ll want to do is create a custom theme for your blog. A custom theme allows you to personalize the look and feel of your website, making it unique and reflective of your brand.&lt;/p></description></item><item><title>在 Netlify 上免费托管您的 Hugo 网站</title><link>https://xtimesai.github.io/post/2024/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="在-netlify-上免费托管您的-hugo-网站">在 Netlify 上免费托管您的 Hugo 网站&lt;/h1>
-&lt;h2 id="什么是-netlify">什么是 Netlify？&lt;/h2>
-&lt;p>Netlify 是一个免费的网站托管服务 - 可以将其视为让所有人都能在互联网上访问您网站的平台。它特别适合静态网站（如使用 Hugo 构建的网站），因为：&lt;/p>
-&lt;ul>
-&lt;li>基础使用完全免费&lt;/li>
-&lt;li>速度非常快&lt;/li>
-&lt;li>设置简单&lt;/li>
-&lt;li>当您进行更改时自动更新网站&lt;/li>
-&lt;/ul>
-&lt;h2 id="在-netlify-上设置您的网站">在 Netlify 上设置您的网站&lt;/h2>
-&lt;h3 id="第一步准备配置">第一步：准备配置&lt;/h3>
-&lt;p>在项目主文件夹中创建一个名为 &lt;code>netlify.toml&lt;/code> 的文件。此文件告诉 Netlify 如何处理您的网站：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[build]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>publish = &lt;span style="color:#b84">&amp;#34;public&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 告诉 Netlify 您的完成网站文件在哪里&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo --gc --minify&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 告诉 Netlify 使用 Hugo 构建您的网站&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 主网站的设置&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.production.environment]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 指定使用的 Hugo 版本&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENV = &lt;span style="color:#b84">&amp;#34;production&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 告诉 Hugo 这是用于您的正式网站&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENABLEGITINFO = &lt;span style="color:#b84">&amp;#34;true&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 允许 Hugo 使用 Git 信息&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 不同部署场景的设置&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.split1]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo --gc --minify --enableGitInfo&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.split1.environment]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENV = &lt;span style="color:#b84">&amp;#34;production&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 预览部署的设置（当您想测试更改时）&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.deploy-preview]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.deploy-preview.environment]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 分支部署的设置&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.branch-deploy]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.branch-deploy.environment]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.next.environment]
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENABLEGITINFO = &lt;span style="color:#b84">&amp;#34;true&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="第二步选择部署方式">第二步：选择部署方式&lt;/h3>
-&lt;p>您有两种方式将网站部署到 Netlify：&lt;/p></description></item><item><title>Markdown 入门指南：给初学者的详细说明</title><link>https://xtimesai.github.io/post/2024/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</link><pubDate>Sat, 09 Nov 2024 09:06:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author><guid>https://xtimesai.github.io/post/2024/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</guid><description>&lt;h1 id="markdown-入门指南给初学者的详细说明">Markdown 入门指南：给初学者的详细说明&lt;/h1>
-&lt;h2 id="什么是-markdown">什么是 Markdown？&lt;/h2>
-&lt;p>Markdown 是一种轻量级的文本格式化工具，它让你能够用简单的符号来美化文本。想象一下，它就像是一个更简单的 Word，但是用的是特殊符号而不是按钮来排版。&lt;/p>
-&lt;h2 id="为什么要用-markdown">为什么要用 Markdown？&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>简单易学&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>只需要记住几个符号&lt;/li>
-&lt;li>不需要复杂的软件&lt;/li>
-&lt;li>写作过程不被打断&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>通用性强&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>可以转换成网页&lt;/li>
-&lt;li>可以转换成 PDF&lt;/li>
-&lt;li>几乎所有平台都支持&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>实用场景广&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>写博客&lt;/li>
-&lt;li>做笔记&lt;/li>
-&lt;li>写文档&lt;/li>
-&lt;li>写说明书&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="基础语法示例">基础语法示例&lt;/h2>
-&lt;h3 id="1-标题的写法">1. 标题的写法&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999"># 一级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">&lt;/span>&lt;span style="color:#aaa">## 二级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#aaa">### 三级标题
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果如下：&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on X times Ai</title>
+    <link>https://xtimesai.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on X times Ai</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
+    <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
+    <lastBuildDate>Mon, 11 Nov 2024 10:07:12 -0500</lastBuildDate>
+    <atom:link href="https://xtimesai.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Hugo | Hugo - Static Site Generator | Tutorial 1</title>
+      <link>https://xtimesai.github.io/post/2024/youtube-test/</link>
+      <pubDate>Mon, 11 Nov 2024 10:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/youtube-test/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qtIqKaDlqXo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=qtIqKaDlqXo&#34;&gt;https://www.youtube.com/watch?v=qtIqKaDlqXo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;236,467 views  Sep 10, 2017&#xA;Hugo Docs - &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;https://gohugo.io/documentation/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Beginner&#39;s Guide to Hugo Shortcodes</title>
+      <link>https://xtimesai.github.io/post/2024/a-beginners-guide-to-hugo-shortcodes/</link>
+      <pubDate>Sun, 10 Nov 2024 10:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/a-beginners-guide-to-hugo-shortcodes/</guid>
+      <description>&lt;h1 id=&#34;a-beginners-guide-to-hugo-shortcodes&#34;&gt;A Beginner&amp;rsquo;s Guide to Hugo Shortcodes&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-are-hugo-shortcodes&#34;&gt;What are Hugo Shortcodes?&lt;/h2&gt;&#xA;&lt;p&gt;Hugo shortcodes are special templates that let you easily add rich content to your website without writing complex HTML code. Think of them as simple shortcuts for inserting things like videos, tweets, and other media into your pages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown 语法入门指南</title>
+      <link>https://xtimesai.github.io/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 10 Nov 2024 09:07:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h1 id=&#34;markdown-语法入门指南&#34;&gt;Markdown 语法入门指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;目录&#34;&gt;目录&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97&#34;&gt;Markdown 语法入门指南&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%9B%AE%E5%BD%95&#34;&gt;目录&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%A0%87%E9%A2%98%E8%AE%BE%E7%BD%AE&#34;&gt;标题设置&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%AE%B5%E8%90%BD%E6%A0%BC%E5%BC%8F&#34;&gt;段落格式&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%96%87%E5%AD%97%E6%A0%B7%E5%BC%8F&#34;&gt;文字样式&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%B2%97%E4%BD%93%E6%96%87%E6%9C%AC&#34;&gt;粗体文本&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E6%96%9C%E4%BD%93%E6%96%87%E6%9C%AC&#34;&gt;斜体文本&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E7%B2%97%E4%BD%93%E5%92%8C%E6%96%9C%E4%BD%93%E7%BB%84%E5%90%88&#34;&gt;粗体和斜体组合&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5&#34;&gt;图片插入&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%E5%AE%9E%E9%99%85%E7%A4%BA%E4%BE%8B&#34;&gt;实际示例&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;标题设置&#34;&gt;标题设置&lt;/h2&gt;&#xA;&lt;p&gt;标题使用井号（#）创建。井号的数量决定标题的级别：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;# 一级标题（最大）&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;## 二级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;### 三级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;#### 四级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;##### 五级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;###### 六级标题（最小）&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;重要提示：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;井号后必须加一个空格&lt;/li&gt;&#xA;&lt;li&gt;标题级别要按顺序使用（不要从一级标题直接跳到四级标题）&lt;/li&gt;&#xA;&lt;li&gt;每个文档建议只使用一个一级标题&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;段落格式&#34;&gt;段落格式&lt;/h2&gt;&#xA;&lt;p&gt;在 Markdown 中创建段落非常简单，只需要用空行分隔文本：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Beginner&#39;s Guide to Markdown Syntax</title>
+      <link>https://xtimesai.github.io/post/2024/a-beginners-guide-to-markdown-syntax/</link>
+      <pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/a-beginners-guide-to-markdown-syntax/</guid>
+      <description>&lt;h1 id=&#34;a-beginners-guide-to-markdown-syntax&#34;&gt;A Beginner&amp;rsquo;s Guide to Markdown Syntax&lt;/h1&gt;&#xA;&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headings&#34;&gt;Headings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#paragraphs&#34;&gt;Paragraphs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#text-styling&#34;&gt;Text Styling&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#examples&#34;&gt;Examples&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;Headings are created using the hash symbol (#). The number of hashes determines the heading level:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Markdown: A Beginner&#39;s Guide</title>
+      <link>https://xtimesai.github.io/post/2024/understanding-markdown--a-beginners-guide/</link>
+      <pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/understanding-markdown--a-beginners-guide/</guid>
+      <description>&lt;h1 id=&#34;understanding-markdown-a-beginners-guide&#34;&gt;Understanding Markdown: A Beginner&amp;rsquo;s Guide&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h2&gt;&#xA;&lt;p&gt;Markdown is a simple way to format text that looks great on any device. Think of it as a simplified version of HTML or a smarter way to write for the web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Host a Static Website for Free on Netlify</title>
+      <link>https://xtimesai.github.io/post/2024/host-a-static-website-for-free-on-netlify/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/host-a-static-website-for-free-on-netlify/</guid>
+      <description>&lt;h1 id=&#34;hosting-your-hugo-website-for-free-on-netlify&#34;&gt;Hosting Your Hugo Website for Free on Netlify&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-netlify&#34;&gt;What is Netlify?&lt;/h2&gt;&#xA;&lt;p&gt;Netlify is like a free hosting service for your website - think of it as a place that makes your website available to everyone on the internet. It&amp;rsquo;s especially good for static websites (like those built with Hugo) because:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Youtube Test Copy</title>
+      <link>https://xtimesai.github.io/post/2024/youtube-test-copy/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/youtube-test-copy/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/L34JL_3Jkyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As a beginner to Hugo, one of the first things you&amp;rsquo;ll want to do is create a custom theme for your blog. A custom theme allows you to personalize the look and feel of your website, making it unique and reflective of your brand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>在 Netlify 上免费托管您的 Hugo 网站</title>
+      <link>https://xtimesai.github.io/post/2024/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</guid>
+      <description>&lt;h1 id=&#34;在-netlify-上免费托管您的-hugo-网站&#34;&gt;在 Netlify 上免费托管您的 Hugo 网站&lt;/h1&gt;&#xA;&lt;h2 id=&#34;什么是-netlify&#34;&gt;什么是 Netlify？&lt;/h2&gt;&#xA;&lt;p&gt;Netlify 是一个免费的网站托管服务 - 可以将其视为让所有人都能在互联网上访问您网站的平台。它特别适合静态网站（如使用 Hugo 构建的网站），因为：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;基础使用完全免费&lt;/li&gt;&#xA;&lt;li&gt;速度非常快&lt;/li&gt;&#xA;&lt;li&gt;设置简单&lt;/li&gt;&#xA;&lt;li&gt;当您进行更改时自动更新网站&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;在-netlify-上设置您的网站&#34;&gt;在 Netlify 上设置您的网站&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一步准备配置&#34;&gt;第一步：准备配置&lt;/h3&gt;&#xA;&lt;p&gt;在项目主文件夹中创建一个名为 &lt;code&gt;netlify.toml&lt;/code&gt; 的文件。此文件告诉 Netlify 如何处理您的网站：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[build]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;publish = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;public&amp;#34;&lt;/span&gt;          &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 告诉 Netlify 您的完成网站文件在哪里&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo --gc --minify&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 告诉 Netlify 使用 Hugo 构建您的网站&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 主网站的设置&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.production.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 指定使用的 Hugo 版本&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENV = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;production&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 告诉 Hugo 这是用于您的正式网站&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENABLEGITINFO = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 允许 Hugo 使用 Git 信息&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 不同部署场景的设置&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.split1]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo --gc --minify --enableGitInfo&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.split1.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENV = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;production&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 预览部署的设置（当您想测试更改时）&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.deploy-preview]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.deploy-preview.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 分支部署的设置&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.branch-deploy]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.branch-deploy.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.next.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENABLEGITINFO = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;第二步选择部署方式&#34;&gt;第二步：选择部署方式&lt;/h3&gt;&#xA;&lt;p&gt;您有两种方式将网站部署到 Netlify：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown 入门指南：给初学者的详细说明</title>
+      <link>https://xtimesai.github.io/post/2024/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</link>
+      <pubDate>Sat, 09 Nov 2024 09:06:12 -0500</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2024/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</guid>
+      <description>&lt;h1 id=&#34;markdown-入门指南给初学者的详细说明&#34;&gt;Markdown 入门指南：给初学者的详细说明&lt;/h1&gt;&#xA;&lt;h2 id=&#34;什么是-markdown&#34;&gt;什么是 Markdown？&lt;/h2&gt;&#xA;&lt;p&gt;Markdown 是一种轻量级的文本格式化工具，它让你能够用简单的符号来美化文本。想象一下，它就像是一个更简单的 Word，但是用的是特殊符号而不是按钮来排版。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么要用-markdown&#34;&gt;为什么要用 Markdown？&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;简单易学&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;只需要记住几个符号&lt;/li&gt;&#xA;&lt;li&gt;不需要复杂的软件&lt;/li&gt;&#xA;&lt;li&gt;写作过程不被打断&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;通用性强&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可以转换成网页&lt;/li&gt;&#xA;&lt;li&gt;可以转换成 PDF&lt;/li&gt;&#xA;&lt;li&gt;几乎所有平台都支持&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;实用场景广&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;写博客&lt;/li&gt;&#xA;&lt;li&gt;做笔记&lt;/li&gt;&#xA;&lt;li&gt;写文档&lt;/li&gt;&#xA;&lt;li&gt;写说明书&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;基础语法示例&#34;&gt;基础语法示例&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-标题的写法&#34;&gt;1. 标题的写法&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;# 一级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;## 二级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;### 三级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;效果如下：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

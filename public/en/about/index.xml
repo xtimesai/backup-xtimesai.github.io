@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About me on X times Ai</title><link>https://xtimesai.github.io/en/about/</link><description>Recent content in About me on X times Ai</description><generator>Hugo</generator><language>en-us</language><managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor><webMaster>johnazureengineer@gmail.com (John Liu)</webMaster><atom:link href="https://xtimesai.github.io/en/about/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About me on X times Ai</title>
+    <link>https://xtimesai.github.io/en/about/</link>
+    <description>Recent content in About me on X times Ai</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
+    <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
+    <atom:link href="https://xtimesai.github.io/en/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
