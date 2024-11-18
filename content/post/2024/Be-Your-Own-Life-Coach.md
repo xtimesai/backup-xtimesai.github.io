@@ -2,8 +2,8 @@
 title: "Be Your Own Life Coach: 10 Essential Steps to Enjoying a Life You Love"
 date: 2024-11-17T11:11:30-05:00
 description : "10 Essential Steps to Enjoying a Life You Love"
-tags: [""]
-image : ""
+tags: ["life coaching", "self-improvement", "personal development"]
+image : "assets/img/life_coach.jpeg"
 draft: false
 ---
 
@@ -152,4 +152,3 @@ Start today by choosing one area of focus. Remember that every expert was once a
 ---
 
 *Action Step: Choose one of these ten areas to focus on this week. Create three specific actions you can take in the next seven days to begin your self-coaching journey.*
-
