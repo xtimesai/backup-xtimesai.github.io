@@ -96,30 +96,30 @@
     </item>
     <item>
       <title>How to use this Hugo theme ?</title>
-      <link>https://xtimesai.github.io/en/post/2020/jan/use-this-theme/</link>
+      <link>https://xtimesai.github.io/post/2020/jan/use-this-theme/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/en/post/2020/jan/use-this-theme/</guid>
+      <guid>https://xtimesai.github.io/post/2020/jan/use-this-theme/</guid>
       <description>&lt;p&gt;After downloading the theme, unzip the file and go to the &amp;rsquo;lightbi-hugo-master&amp;rsquo; folder. Open the folder in you editor and run the hugo build command as below.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will create a folder named &amp;lsquo;public&amp;rsquo; and in the same you can find the website created by Hugo from the contents from &amp;lsquo;content&amp;rsquo; folder and the theme.&#xA;To check the website you can run the below command,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Build a Hugo Blog</title>
-      <link>https://xtimesai.github.io/en/post/2020/jan/build-hugo-blog/</link>
+      <link>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/en/post/2020/jan/build-hugo-blog/</guid>
+      <guid>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</guid>
       <description>&lt;h3 id=&#34;hugo&#34;&gt;Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rich Content</title>
-      <link>https://xtimesai.github.io/en/post/2020/jan/rich-content/</link>
+      <link>https://xtimesai.github.io/post/2020/jan/rich-content/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/en/post/2020/jan/rich-content/</guid>
+      <guid>https://xtimesai.github.io/post/2020/jan/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Host in Netlify</title>
-      <link>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</link>
+      <link>https://xtimesai.github.io/post/2020/jan/netlify-conf/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</guid>
+      <guid>https://xtimesai.github.io/post/2020/jan/netlify-conf/</guid>
       <description>&lt;p&gt;You can host your static website wth zero cost in &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Add the below netlify.toml in the root folder.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;[build]&#xA;publish = &amp;quot;public&amp;quot;&#xA;command = &amp;quot;hugo --gc --minify&amp;quot;&#xA;&#xA;[context.production.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&#xA;[context.split1]&#xA;command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;&#xA;&#xA;[context.split1.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;&#xA;[context.deploy-preview]&#xA;command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.deploy-preview.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.branch-deploy]&#xA;command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.branch-deploy.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.next.environment]&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.&lt;/p&gt;</description>
     </item>
   </channel>

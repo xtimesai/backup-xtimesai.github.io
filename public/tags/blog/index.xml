@@ -82,16 +82,16 @@
     </item>
     <item>
       <title>How to use this Hugo theme ?</title>
-      <link>https://xtimesai.github.io/en/post/2020/jan/use-this-theme/</link>
+      <link>https://xtimesai.github.io/post/2020/jan/use-this-theme/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/en/post/2020/jan/use-this-theme/</guid>
+      <guid>https://xtimesai.github.io/post/2020/jan/use-this-theme/</guid>
       <description>&lt;p&gt;After downloading the theme, unzip the file and go to the &amp;rsquo;lightbi-hugo-master&amp;rsquo; folder. Open the folder in you editor and run the hugo build command as below.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will create a folder named &amp;lsquo;public&amp;rsquo; and in the same you can find the website created by Hugo from the contents from &amp;lsquo;content&amp;rsquo; folder and the theme.&#xA;To check the website you can run the below command,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Build a Hugo Blog</title>
-      <link>https://xtimesai.github.io/en/post/2020/jan/build-hugo-blog/</link>
+      <link>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/en/post/2020/jan/build-hugo-blog/</guid>
+      <guid>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</guid>
       <description>&lt;h3 id=&#34;hugo&#34;&gt;Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.&lt;/p&gt;</description>
     </item>
   </channel>

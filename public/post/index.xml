@@ -151,6 +151,55 @@
       <description>&lt;h1 id=&#34;markdown-入门指南给初学者的详细说明&#34;&gt;Markdown 入门指南：给初学者的详细说明&lt;/h1&gt;&#xA;&lt;h2 id=&#34;什么是-markdown&#34;&gt;什么是 Markdown？&lt;/h2&gt;&#xA;&lt;p&gt;Markdown 是一种轻量级的文本格式化工具，它让你能够用简单的符号来美化文本。想象一下，它就像是一个更简单的 Word，但是用的是特殊符号而不是按钮来排版。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么要用-markdown&#34;&gt;为什么要用 Markdown？&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;简单易学&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;只需要记住几个符号&lt;/li&gt;&#xA;&lt;li&gt;不需要复杂的软件&lt;/li&gt;&#xA;&lt;li&gt;写作过程不被打断&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;通用性强&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可以转换成网页&lt;/li&gt;&#xA;&lt;li&gt;可以转换成 PDF&lt;/li&gt;&#xA;&lt;li&gt;几乎所有平台都支持&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;实用场景广&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;写博客&lt;/li&gt;&#xA;&lt;li&gt;做笔记&lt;/li&gt;&#xA;&lt;li&gt;写文档&lt;/li&gt;&#xA;&lt;li&gt;写说明书&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;基础语法示例&#34;&gt;基础语法示例&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-标题的写法&#34;&gt;1. 标题的写法&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;# 一级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;## 二级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;### 三级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;效果如下：&lt;/p&gt;</description>
     </item>
     <item>
+      <title>How to use this Hugo theme ?</title>
+      <link>https://xtimesai.github.io/post/2020/jan/use-this-theme/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/use-this-theme/</guid>
+      <description>&lt;p&gt;After downloading the theme, unzip the file and go to the &amp;rsquo;lightbi-hugo-master&amp;rsquo; folder. Open the folder in you editor and run the hugo build command as below.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It will create a folder named &amp;lsquo;public&amp;rsquo; and in the same you can find the website created by Hugo from the contents from &amp;lsquo;content&amp;rsquo; folder and the theme.&#xA;To check the website you can run the below command,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build a Hugo Blog</title>
+      <link>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</guid>
+      <description>&lt;h3 id=&#34;hugo&#34;&gt;Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Markdown ?</title>
+      <link>https://xtimesai.github.io/post/2020/jan/markdown/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/markdown/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is Markdown?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Syntax</title>
+      <link>https://xtimesai.github.io/post/2020/jan/syntax/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/syntax/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Headings&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.g., ### My Header).&#xA; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>https://xtimesai.github.io/post/2020/jan/rich-content/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Host in Netlify</title>
+      <link>https://xtimesai.github.io/post/2020/jan/netlify-conf/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/netlify-conf/</guid>
+      <description>&lt;p&gt;You can host your static website wth zero cost in &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Add the below netlify.toml in the root folder.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;[build]&#xA;publish = &amp;quot;public&amp;quot;&#xA;command = &amp;quot;hugo --gc --minify&amp;quot;&#xA;&#xA;[context.production.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&#xA;[context.split1]&#xA;command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;&#xA;&#xA;[context.split1.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;HUGO_ENV = &amp;quot;production&amp;quot;&#xA;&#xA;[context.deploy-preview]&#xA;command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.deploy-preview.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.branch-deploy]&#xA;command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;&#xA;&#xA;[context.branch-deploy.environment]&#xA;HUGO_VERSION = &amp;quot;0.82.0&amp;quot;&#xA;&#xA;[context.next.environment]&#xA;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Who am I ?!</title>
+      <link>https://xtimesai.github.io/post/2020/jan/who-am-i/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/who-am-i/</guid>
+      <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title></title>
       <link>https://xtimesai.github.io/post/2024/be-patient/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>

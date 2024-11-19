@@ -262,17 +262,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/use-this-theme/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/use-this-theme/</loc>
-    <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/build-hugo-blog/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/build-hugo-blog/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -297,12 +292,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/markdown/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/markdown/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/syntax/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/syntax/</loc>
     <lastmod>2020-01-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -312,7 +307,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/rich-content/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/rich-content/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -322,7 +317,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/netlify-conf/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/netlify-conf/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -337,8 +332,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/en/post/2020/jan/who-am-i/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/who-am-i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/en/post/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
