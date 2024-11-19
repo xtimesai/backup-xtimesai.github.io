@@ -3,16 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xtimesai.github.io/post/</loc>
-    <lastmod>2024-11-17T18:48:12-05:00</lastmod>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/post/2024/creating-your-first-hugo-website/</loc>
-    <lastmod>2024-11-17T18:48:12-05:00</lastmod>
+    <loc>https://xtimesai.github.io/post/2024/keep-your-faith-strong-and-your-patience/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/post/2024/my-first-test-blog-post/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://xtimesai.github.io/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://xtimesai.github.io/post/2024/creating-your-first-hugo-website/</loc>
     <lastmod>2024-11-17T18:48:12-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
