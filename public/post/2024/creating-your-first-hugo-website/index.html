@@ -1,169 +1,4 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>Creating Your First Hugo Website: A Step-by-Step Guide | X times Ai</title>
-
-
-
-
-
-</head>
-<body>
-  <header>
-    <h1>X times Ai</h1>
-
-  <nav>
-    <ul>
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/notes/">Notes</a>
-    </li>
-    <li>
-      <a href="/tags/blog/">Tags</a>
-    </li>
-    <li>
-      <a href="/collections/">Collections</a>
-    </li>
-    <li>
-      <a href="/about/">About</a>
-    </li>
-    </ul>
-  </nav>
-
-
-  </header>
-  <main>
-    
-  <h1>Creating Your First Hugo Website: A Step-by-Step Guide</h1>
-
-  
-  
-  <time datetime="2024-11-17T18:48:12-05:00">November 17, 2024</time>
-
-  <p>Creating Your First Hugo Website: A Step-by-Step Guide
-创建你的第一个 Hugo 网站：分步指南</p>
-<h2 id="prerequisites--前提条件">Prerequisites | 前提条件</h2>
-<ul>
-<li>Hugo installed on your computer | 电脑上已安装 Hugo</li>
-<li>A terminal/command line interface | 终端/命令行界面</li>
-<li>A text editor of your choice | 你选择的文本编辑器</li>
-</ul>
-<h2 id="step-1-create-a-project-directory--步骤1创建项目目录">Step 1: Create a Project Directory | 步骤1：创建项目目录</h2>
-<ol>
-<li>Create a folder where you want to store your Hugo projects | 创建一个用于存储 Hugo 项目的文件夹</li>
-<li>Open your terminal | 打开终端</li>
-<li>Navigate to your project directory using the <code>cd</code> command | 使用 <code>cd</code> 命令导航到项目目录</li>
-</ol>
-<h2 id="step-2-create-a-new-hugo-site--步骤2创建新的-hugo-网站">Step 2: Create a New Hugo Site | 步骤2：创建新的 Hugo 网站</h2>
-<p>Run the following command in your terminal: | 在终端中运行以下命令：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site your_site_name
-</span></span></code></pre></div><p>Replace <code>your_site_name</code> with whatever you want to call your project. | 将 <code>your_site_name</code> 替换为你想要的项目名称。</p>
-<h2 id="step-3-understanding-the-project-structure--步骤3了解项目结构">Step 3: Understanding the Project Structure | 步骤3：了解项目结构</h2>
-<h3 id="-archetypes">📁 archetypes/</h3>
-<ul>
-<li>Contains templates for your content | 包含内容的模板</li>
-<li>Used for defining common metadata across similar content types | 用于定义相似内容类型的通用元数据</li>
-<li>Mainly used for advanced configurations | 主要用于高级配置</li>
-</ul>
-<h3 id="-content">📁 content/</h3>
-<ul>
-<li>Stores all your website content | 存储所有网站内容</li>
-<li>Place your pages, blog posts, and other content here | 在此放置你的页面、博客文章和其他内容</li>
-<li>Main directory where you&rsquo;ll spend most of your time writing | 你将花费最多时间写作的主要目录</li>
-</ul>
-<h3 id="-data">📁 data/</h3>
-<ul>
-<li>Acts as a simple database for your site | 作为网站的简单数据库</li>
-<li>Store JSON, YAML, or TOML files | 存储 JSON、YAML 或 TOML 文件</li>
-<li>Used for site-wide data that can be accessed by your templates | 用于可被模板访问的全站数据</li>
-</ul>
-<h3 id="-layouts">📁 layouts/</h3>
-<ul>
-<li>Contains your site&rsquo;s templates | 包含网站的模板</li>
-<li>Define how your content will be displayed | 定义内容如何显示</li>
-<li>Examples: headers, footers, page layouts | 示例：页眉、页脚、页面布局</li>
-<li>Create consistent looks across your site | 创建全站统一的外观</li>
-</ul>
-<h3 id="-static">📁 static/</h3>
-<ul>
-<li>Stores unchanging files | 存储不变的文件</li>
-<li>Contains: | 包含：
-<ul>
-<li>Images | 图片</li>
-<li>CSS files | CSS 文件</li>
-<li>JavaScript files | JavaScript 文件</li>
-<li>Downloads | 下载文件</li>
-<li>Other static assets | 其他静态资源</li>
-</ul>
-</li>
-</ul>
-<h3 id="-themes">📁 themes/</h3>
-<ul>
-<li>Houses downloaded themes | 存放下载的主题</li>
-<li>Allows you to use pre-built designs | 允许使用预构建的设计</li>
-<li>Great for beginners who don&rsquo;t want to create layouts from scratch | 适合不想从头开始创建布局的初学者</li>
-</ul>
-<h3 id="-configtoml">📄 config.toml</h3>
-<ul>
-<li>Main configuration file | 主配置文件</li>
-<li>Contains your site&rsquo;s settings | 包含网站的设置</li>
-<li>Define things like: | 定义诸如：
-<ul>
-<li>Site title | 网站标题</li>
-<li>Base URL | 基础 URL</li>
-<li>Language | 语言</li>
-<li>Other global settings | 其他全局设置</li>
-</ul>
-</li>
-</ul>
-<h2 id="step-4-initial-configuration--步骤4初始配置">Step 4: Initial Configuration | 步骤4：初始配置</h2>
-<ol>
-<li>Open <code>config.toml</code> in your text editor | 在文本编辑器中打开 <code>config.toml</code></li>
-<li>Set basic configurations: | 设置基本配置：</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>title = <span style="color:#b84">&#34;Your Site Title&#34;</span>
-</span></span><span style="display:flex;"><span>baseURL = <span style="color:#b84">&#34;http://example.org/&#34;</span>
-</span></span><span style="display:flex;"><span>languageCode = <span style="color:#b84">&#34;en-us&#34;</span>
-</span></span></code></pre></div><h2 id="next-steps--后续步骤">Next Steps | 后续步骤</h2>
-<ol>
-<li>Choose and install a theme | 选择并安装主题</li>
-<li>Create your first content | 创建你的第一个内容</li>
-<li>Customize your layouts | 自定义布局</li>
-<li>Add static assets | 添加静态资源</li>
-</ol>
-<h2 id="tips-for-beginners--给初学者的提示">Tips for Beginners | 给初学者的提示</h2>
-<ul>
-<li>Start with the <code>content/</code> folder for adding pages | 从 <code>content/</code> 文件夹开始添加页面</li>
-<li>Use a pre-built theme initially | 初期使用预构建的主题</li>
-<li>Don&rsquo;t worry about complex layouts at first | 开始时不要担心复杂的布局</li>
-<li>Keep your static assets organized in the <code>static/</code> folder | 在 <code>static/</code> 文件夹中组织静态资源</li>
-<li>Make regular backups of your <code>config.toml</code> | 定期备份 <code>config.toml</code></li>
-</ul>
-<h2 id="common-gotchas--常见陷阱">Common Gotchas | 常见陷阱</h2>
-<ul>
-<li>Always run Hugo commands from your project root directory | 始终从项目根目录运行 Hugo 命令</li>
-<li>Keep file names lowercase and use hyphens instead of spaces | 保持文件名小写并使用连字符而不是空格</li>
-<li>Remember to rebuild your site after making changes | 记得在做出更改后重新构建网站</li>
-<li>Check your <code>baseURL</code> setting if links aren&rsquo;t working | 如果链接不工作，检查 <code>baseURL</code> 设置</li>
-</ul>
-
-  
-
-
-  </main>
-  <footer>
-    <p>Copyright 2024. All rights reserved.</p>
-
-  </footer>
-</body>
-</html>
-
-&lt;---
-<!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
     <meta charset="utf-8">
@@ -350,13 +185,14 @@
 
 
     
-  <h1>Creating Your First Hugo Website: A Step-by-Step Guide</h1>
+<div class="container" role="main">
+  <div class="row">
 
-  
-  
-  <time datetime="2024-11-17T18:48:12-05:00">November 17, 2024</time>
+    
 
-  <p>Creating Your First Hugo Website: A Step-by-Step Guide
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p>Creating Your First Hugo Website: A Step-by-Step Guide
 创建你的第一个 Hugo 网站：分步指南</p>
 <h2 id="prerequisites--前提条件">Prerequisites | 前提条件</h2>
 <ul>
@@ -463,12 +299,329 @@
 <li>Check your <code>baseURL</code> setting if links aren&rsquo;t working | 如果链接不工作，检查 <code>baseURL</code> 设置</li>
 </ul>
 
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="https://xtimesai.github.io/tags//"></a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+      <section id="social-share">
+        <div class="list-inline footer-links">
+          
+
+<div>
+  <p>Use the share button below if you liked it.</p>
+</div>
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+    <li>
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fxtimesai.github.io%2fpost%2f2024%2fcreating-your-first-hugo-website%2f" target="_blank" title="Share on Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </svg>
+      </a>
+    </li>
+    
+    <li>
+      <a href="//twitter.com/share?url=https%3a%2f%2fxtimesai.github.io%2fpost%2f2024%2fcreating-your-first-hugo-website%2f&amp;text=Creating%20Your%20First%20Hugo%20Website%3a%20A%20Step-by-Step%20Guide&amp;via=map%5bauthorinfo%3aStay%20Hungry%2c%20Stay%20Humble.%20authorpostimage%3a%2fimg%2fauthor-post-img.jpg%20email%3ajohnazureengineer%40gmail.com%20facebook%3ausername%20github%3axtimesai%20gitlab%3ausername%20instagram%3ausername%20linkedin%3ausername%20mastodon%3aurl%20name%3aJohn%20Liu%20paypal%3ausername%20reddit%3ausername%20slack%3ausername%20snapchat%3ausername%20spotify%3ausername%20stackoverflow%3ausers%2fXXXXXXX%2fusername%20telegram%3ausername%20threads%3ausername%20twitter%3a%40mydailylivemail%20website%3ahttps%3a%2f%2fxtimesai.github.io%20youtube%3auser%2fusername%5d"
+        target="_blank" title="Share on Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path
+            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+        </svg>
+      </a>
+    </li>
+
+
+    
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fxtimesai.github.io%2fpost%2f2024%2fcreating-your-first-hugo-website%2f&amp;title=Creating%20Your%20First%20Hugo%20Website%3a%20A%20Step-by-Step%20Guide"
+        target="_blank" title="Share on LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <a target="_blank" rel="noopener noreferrer" aria-label="share Creating Your First Hugo Website: A Step-by-Step Guide on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2fxtimesai.github.io%2fpost%2f2024%2fcreating-your-first-hugo-website%2f&title=Creating%20Your%20First%20Hugo%20Website%3a%20A%20Step-by-Step%20Guide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
+          viewBox="0 0 16 16">
+          <path
+            d="M6.167 8a.831.831 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661zm1.843 3.647c.315 0 1.403-.038 1.976-.611a.232.232 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83.458 0 .83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.203.203 0 0 0-.153.028.186.186 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224c-.02.115-.029.23-.029.353 0 1.795 2.091 3.256 4.669 3.256 2.577 0 4.668-1.451 4.668-3.256 0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165z" />
+        </svg>
+      </a>
+    </li>
+
+    
+    
+
+
+    
+    <li>
+      <a href="whatsapp://send?text=https%3a%2f%2fxtimesai.github.io%2fpost%2f2024%2fcreating-your-first-hugo-website%2f&amp;description=Creating%20Your%20First%20Hugo%20Website%3a%20A%20Step-by-Step%20Guide" target="_blank" rel="noopener"
+        title="Share on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path
+            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<p class="text-muted">It makes me smile, when I see it.</p>
+        </div>
+      </section>
+      
+    </div>
+
+    
+    
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="https://xtimesai.github.io/post/2024/be-your-own-life-coach/"
+            data-toggle="tooltip" data-placement="top" title="Be Your Own Life Coach: 10 Essential Steps to Enjoying a Life You Love">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="https://xtimesai.github.io/post/2024/no2-post-generator-blog-test/"
+            data-toggle="tooltip" data-placement="top" title="零基础教你用F5-TTS克隆任意声音！">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
   
 
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Read More</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://xtimesai.github.io/post/2024/01/">
+        <div class="card single-post-card h-100 shadow-effect border">
+            
+            <img src="/post/2024/01/Keep%20Your%20Faith%20Strong%20and%20Your%20Patience_hu3424780181092417792.png" alt="Keep Your Faith Strong and Your Patience.png"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+                <h3 class="fw-medium post-title">First to be removed</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  18 November 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    Keep Your Faith Strong and Your Patience Steady: Everything is Coming Together for You
+The world can often feel overwhelming, unpredictable, and even discouraging
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://xtimesai.github.io/post/2024/keep-your-faith-strong-and-your-patience-steady/">
+        <div class="card single-post-card h-100 shadow-effect border">
+            
+            <img src="/post/2024/keep-your-faith-strong-and-your-patience-steady/Keep_Your_Faith_Strong_and_Your_Patience_hu3424780181092417792.png" alt="Keep_Your_Faith_Strong_and_Your_Patience.png"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+                <h3 class="fw-medium post-title">Keep Your Faith Strong and Your Patience Steady</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  18 November 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    Keep Your Faith Strong and Your Patience Steady: Everything is Coming Together for You
+The world can often feel overwhelming, unpredictable, and even discouraging
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://xtimesai.github.io/post/2024/no2-post-generator-blog-test/">
+        <div class="card single-post-card h-100 shadow-effect border">
+            
+            <img src="/post/2024/no2-post-generator-blog-test/SCR-20241101-joef_hu12253163345559530355.png" alt="SCR-20241101-joef.png"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+                <h3 class="fw-medium post-title">零基础教你用F5-TTS克隆任意声音！</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  18 November 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    🔥🔥🔥视频简介：
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
 
     <p>Copyright 2024. All rights reserved.</p>
 
     
   </body>
 </html>
---->
+

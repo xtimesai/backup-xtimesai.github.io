@@ -1,93 +1,4 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>Netlify | X times Ai</title>
-
-
-
-
-
-</head>
-<body>
-  <header>
-    <h1>X times Ai</h1>
-
-  <nav>
-    <ul>
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/notes/">Notes</a>
-    </li>
-    <li>
-      <a href="/tags/blog/">Tags</a>
-    </li>
-    <li>
-      <a href="/collections/">Collections</a>
-    </li>
-    <li>
-      <a href="/about/">About</a>
-    </li>
-    </ul>
-  </nav>
-
-
-  </header>
-  <main>
-    
-  <h1>Netlify</h1>
-  
-  
-    <h2><a href="/post/2020/jan/netlify-conf/">Host in Netlify</a></h2>
-    <p>You can host your static website wth zero cost in <a href="https://www.netlify.com/">Netlify</a>.</p>
-<p>Add the below netlify.toml in the root folder.</p>
-<pre><code>[build]
-publish = &quot;public&quot;
-command = &quot;hugo --gc --minify&quot;
-
-[context.production.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-HUGO_ENV = &quot;production&quot;
-HUGO_ENABLEGITINFO = &quot;true&quot;
-
-[context.split1]
-command = &quot;hugo --gc --minify --enableGitInfo&quot;
-
-[context.split1.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-HUGO_ENV = &quot;production&quot;
-
-[context.deploy-preview]
-command = &quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&quot;
-
-[context.deploy-preview.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-
-[context.branch-deploy]
-command = &quot;hugo -b $DEPLOY_PRIME_URL&quot;
-
-[context.branch-deploy.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = &quot;true&quot;
-</code></pre>
-<p>And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.</p>
-  
-
-  </main>
-  <footer>
-    <p>Copyright 2024. All rights reserved.</p>
-
-  </footer>
-</body>
-</html>
-
-&lt;---
-<!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
     <meta charset="utf-8">
@@ -274,49 +185,85 @@ HUGO_ENABLEGITINFO = &quot;true&quot;
 
 
     
-  <h1>Netlify</h1>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-md-12">
+      
+      <div class="row">
+        
+          
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://xtimesai.github.io/post/2020/jan/netlify-conf/">
+        <div class="card single-post-card h-100 shadow-effect border">
+            
+            <img src="/img/posts/img-10_hu12979072430340561754.jpg" alt="/img/posts/img-10.jpg"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+                <h3 class="fw-medium post-title">Host in Netlify</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
-    <h2><a href="/post/2020/jan/netlify-conf/">Host in Netlify</a></h2>
-    <p>You can host your static website wth zero cost in <a href="https://www.netlify.com/">Netlify</a>.</p>
-<p>Add the below netlify.toml in the root folder.</p>
-<pre><code>[build]
-publish = &quot;public&quot;
-command = &quot;hugo --gc --minify&quot;
 
-[context.production.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-HUGO_ENV = &quot;production&quot;
-HUGO_ENABLEGITINFO = &quot;true&quot;
+  04 January 2020
 
-[context.split1]
-command = &quot;hugo --gc --minify --enableGitInfo&quot;
-
-[context.split1.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-HUGO_ENV = &quot;production&quot;
-
-[context.deploy-preview]
-command = &quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&quot;
-
-[context.deploy-preview.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-
-[context.branch-deploy]
-command = &quot;hugo -b $DEPLOY_PRIME_URL&quot;
-
-[context.branch-deploy.environment]
-HUGO_VERSION = &quot;0.82.0&quot;
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = &quot;true&quot;
-</code></pre>
-<p>And you can upload the public folder directly to Netlify or integrate your GitHub accout with Netlify to host your website.</p>
   
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+                <div class="post-entry">
+
+                    
+                    You can host your static website wth zero cost in Netlify. Add the below netlify.toml in the root. And you can upload the public folder directly...
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+ <div class="row font-sans">
+   <div class="col-md-12 mt-10">
+      <nav aria-label="Page navigation">
+      <ul class= "pagination justify-content-end">
+      
+      </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
 
     <p>Copyright 2024. All rights reserved.</p>
 
     
   </body>
 </html>
---->
+
