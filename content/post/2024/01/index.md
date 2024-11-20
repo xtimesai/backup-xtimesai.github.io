@@ -1,11 +1,9 @@
 ---
-title: "First to be removed"
+title: "Keep Your Faith Strong and Your Patience Steady: Everything is Coming Together for You"
 date: 2024-11-18
-description: "Keep Your Faith Strong and Your Patience Steady: Everything is Coming Together for You
-
-The world can often feel overwhelming, unpredictable, and even discouraging"
+description: "The world can often feel overwhelming, unpredictable, and even discouraging"
 tags: [""]
-image: "Keep Your Faith Strong and Your Patience.png"
+image: "Bell_Sensplex.jpeg"
 draft: false
 lightgallery: true
 ---
