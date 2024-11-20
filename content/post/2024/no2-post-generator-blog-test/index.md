@@ -1,14 +1,7 @@
 ---
-title: "No2 post generator blog test"
+title: "零基础教你用F5-TTS克隆任意声音！"
 date: 2024-11-18
-description: "🔥🔥🔥视频简介：
-🚀【AI语音】零基础教你用F5-TTS克隆任意声音！本地部署+云端部署双方案，整合Colab免费算力，轻松实现数字人开发
-🚀本期视频详细演示最新的开源文本转语音和声音克隆项目F5-TTS的功能和使用方法。
-🚀演示了如何在本地环境和Google Colab上部署该项目，通过ngrok实现内网穿透，使项目可以在公网访问。
-🚀视频详细讲解了F5-TTS的创新技术如flow matching和diffusion Transformer、sway sampling策略等，这些提升了其实时处理能力，适用于语音助手、交互式语音系统等场景。
-🚀视频还展示了声音克隆的效果，包括情绪控制和多语种语音生成的应用。还对比了不同模型（F5-TTS和E2-TTS）的生成效果，并展示了中英文的声音克隆。
-
-👉👉👉视频中所用到的代码 https://blog"
+description: "🔥🔥🔥视频简介："
 tags: [""]
 image: "SCR-20241101-joef.png"
 draft: false
