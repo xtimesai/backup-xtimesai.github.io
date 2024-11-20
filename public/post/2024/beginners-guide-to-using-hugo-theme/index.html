@@ -1,5 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Beginner&#39;s Guide to Using a Hugo Theme | X times Ai</title>
 
 
+
+
+
+</head>
+<body>
+  <header>
+    <h1>X times Ai</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/notes/">Notes</a>
+    </li>
+    <li>
+      <a href="/tags/blog/">Tags</a>
+    </li>
+    <li>
+      <a href="/collections/">Collections</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Beginner&#39;s Guide to Using a Hugo Theme</h1>
+
+  
+  
+  <time datetime="2024-11-10T00:00:00&#43;00:00">November 10, 2024</time>
+
+  <h1 id="beginners-guide-to-using-a-hugo-theme">Beginner&rsquo;s Guide to Using a Hugo Theme</h1>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have:</p>
+<ol>
+<li><a href="https://gohugo.io/installation/">Hugo</a> installed on your system</li>
+<li>A code editor (like VS Code, Sublime Text, etc.)</li>
+<li>Basic familiarity with command line operations</li>
+</ol>
+<h2 id="step-1-theme-installation">Step 1: Theme Installation</h2>
+<ol>
+<li>Download the theme from the source</li>
+<li>Unzip the downloaded file</li>
+<li>Navigate to the theme folder:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#999">cd</span> lightbi-hugo-master
+</span></span></code></pre></div><h2 id="step-2-project-structure">Step 2: Project Structure</h2>
+<p>The theme folder should contain these essential directories:</p>
+<ul>
+<li><code>archetypes/</code> - Contains default content templates</li>
+<li><code>content/</code> - Where your website content goes</li>
+<li><code>layouts/</code> - Contains theme templates</li>
+<li><code>static/</code> - For static files (images, CSS, JavaScript)</li>
+<li><code>config.toml</code> - Main configuration file</li>
+</ul>
+<h2 id="step-3-building-your-site">Step 3: Building Your Site</h2>
+<ol>
+<li>To build your site, run:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>This command:</p>
+<ul>
+<li>Creates a <code>public/</code> directory</li>
+<li>Generates static files from your content</li>
+<li>Applies the theme styling</li>
+</ul>
+<ol start="2">
+<li>To preview your site locally:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>This command:</p>
+<ul>
+<li>Starts a development server</li>
+<li>Makes your site available at <code>http://localhost:1313</code></li>
+<li>Enables live reload for real-time changes</li>
+</ul>
+<h2 id="step-4-adding-content">Step 4: Adding Content</h2>
+<ol>
+<li>Create new content using:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><ol start="2">
+<li>Edit the generated markdown file in the <code>content/posts</code> directory</li>
+</ol>
+<h2 id="step-5-customization">Step 5: Customization</h2>
+<ol>
+<li>Configure your site by editing <code>config.toml</code>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>baseURL = <span style="color:#b84">&#34;https://example.org/&#34;</span>
+</span></span><span style="display:flex;"><span>languageCode = <span style="color:#b84">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span>title = <span style="color:#b84">&#34;My New Hugo Site&#34;</span>
+</span></span><span style="display:flex;"><span>theme = <span style="color:#b84">&#34;lightbi-hugo&#34;</span>
+</span></span></code></pre></div><ol start="2">
+<li>Customize theme parameters according to the theme documentation</li>
+</ol>
+<h2 id="common-issues-and-solutions">Common Issues and Solutions</h2>
+<ol>
+<li>
+<p>If the server doesn&rsquo;t start:</p>
+<ul>
+<li>Check if port 1313 is already in use</li>
+<li>Try using a different port:
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -p <span style="color:#099">1314</span>
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p>If theme isn&rsquo;t applying:</p>
+<ul>
+<li>Verify theme name in <code>config.toml</code></li>
+<li>Ensure theme files are in the correct directory</li>
+</ul>
+</li>
+</ol>
+<h2 id="deployment-tips">Deployment Tips</h2>
+<ol>
+<li>Always run <code>hugo</code> command before deploying</li>
+<li>Use the contents of <code>public/</code> folder for deployment</li>
+<li>Consider using GitHub Pages or Netlify for hosting</li>
+</ol>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li>Keep content organized in appropriate directories</li>
+<li>Use meaningful names for content files</li>
+<li>Regularly commit changes if using version control</li>
+<li>Test locally before deploying</li>
+</ol>
+<h2 id="next-steps">Next Steps</h2>
+<ol>
+<li>Explore theme-specific features</li>
+<li>Learn about Hugo shortcodes</li>
+<li>Customize templates</li>
+<li>Add custom CSS/JavaScript</li>
+</ol>
+<p>Remember to check the theme&rsquo;s documentation for specific features and customization options available with this particular theme.</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/hugo/">Hugo</a></li>
+        <li><a href="/tags/blog/">Blog</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+
+&lt;---
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
@@ -313,3 +481,4 @@
     
   </body>
 </html>
+--->

@@ -1,5 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>A Beginner&#39;s Guide to Hugo Shortcodes | X times Ai</title>
 
 
+
+
+
+</head>
+<body>
+  <header>
+    <h1>X times Ai</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/notes/">Notes</a>
+    </li>
+    <li>
+      <a href="/tags/blog/">Tags</a>
+    </li>
+    <li>
+      <a href="/collections/">Collections</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>A Beginner&#39;s Guide to Hugo Shortcodes</h1>
+
+  
+  
+  <time datetime="2024-11-10T10:07:12-05:00">November 10, 2024</time>
+
+  <h1 id="a-beginners-guide-to-hugo-shortcodes">A Beginner&rsquo;s Guide to Hugo Shortcodes</h1>
+<h2 id="what-are-hugo-shortcodes">What are Hugo Shortcodes?</h2>
+<p>Hugo shortcodes are special templates that let you easily add rich content to your website without writing complex HTML code. Think of them as simple shortcuts for inserting things like videos, tweets, and other media into your pages.</p>
+<h2 id="understanding-built-in-shortcodes">Understanding Built-in Shortcodes</h2>
+<p>Basic Syntax
+Shortcodes in Hugo use this format:
+Copy{{% shortcode-name parameters %}}  # for markdown content
+{{&lt; shortcode-name parameters &gt;}}  # for HTML content
+YouTube Videos</p>
+<h3 id="how-to-embed-youtube-videos">How to Embed YouTube Videos</h3>
+<p>Let&rsquo;s break down the process step by step:</p>
+<ol>
+<li>
+<p><strong>Start with a YouTube URL:</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>https://www.youtube.com/watch?v=3qHkcs3kG44
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Find the Video ID:</strong></p>
+<ul>
+<li>Look for the part after <code>v=</code> in the URL</li>
+<li>In this example: <code>3qHkcs3kG44</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Use the Shortcode:</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; youtube 3qHkcs3kG44 &gt;}}
+</span></span></code></pre></div></li>
+</ol>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/3qHkcs3kG44?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<p><strong>What This Does:</strong></p>
+<ul>
+<li>Creates a responsive video player</li>
+<li>Enhances privacy (uses YouTube&rsquo;s privacy-enhanced mode)</li>
+<li>Works on all screen sizes</li>
+<li>Loads faster than embedding raw HTML</li>
+</ul>
+<h2 id="twitter-embeds">Twitter Embeds</h2>
+<h3 id="how-to-embed-tweets">How to Embed Tweets</h3>
+<p>Step-by-step process:</p>
+<ol>
+<li>
+<p><strong>Get the Tweet URL:</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>https:<span style="font-weight:bold">//</span>twitter<span style="font-weight:bold">.</span>com<span style="font-weight:bold">/</span>binovarghese_<span style="font-weight:bold">/</span>status<span style="font-weight:bold">/</span><span style="color:#099">1758148486510317907</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Extract Key Information:</strong></p>
+<ul>
+<li>Username: <code>binovarghese_</code></li>
+<li>Tweet ID: <code>1758148486510317907</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Use the Twitter Shortcode:</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>{{<span style="font-weight:bold">&lt;</span> twitter user<span style="font-weight:bold">=</span><span style="color:#b84">&#34;binovarghese_&#34;</span> id<span style="font-weight:bold">=</span><span style="color:#b84">&#34;1758148486510317907&#34;</span> <span style="font-weight:bold">&gt;</span>}}
+</span></span></code></pre></div></li>
+</ol>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m a night owl who loves the dark hours. I often go for walks at night, enjoying the city lights, the yellow glow, and the people around me.<br><br>Here are some photos I took from the night walks in Bahrain<a href="https://twitter.com/hashtag/photography?src=hash&amp;ref_src=twsrc%5Etfw">#photography</a> <a href="https://twitter.com/hashtag/Bahrain?src=hash&amp;ref_src=twsrc%5Etfw">#Bahrain</a><a href="https://t.co/OzoJjNRH67">https://t.co/OzoJjNRH67</a></p>&mdash; Bino⚡ (@binovarghese_) <a href="https://twitter.com/binovarghese_/status/1758148486510317907?ref_src=twsrc%5Etfw">February 15, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p><strong>What This Does:</strong></p>
+<ul>
+<li>Embeds the tweet with original formatting</li>
+<li>Maintains responsiveness</li>
+<li>Works without JavaScript (static version)</li>
+<li>Respects user privacy</li>
+</ul>
+<h2 id="examples-of-other-common-shortcodes">Examples of Other Common Shortcodes</h2>
+<h3 id="vimeo-videos">Vimeo Videos</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; vimeo 123456789 &gt;}}
+</span></span></code></pre></div><h3 id="instagram-posts">Instagram Posts</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; instagram BWNjjyYFxVx &gt;}}
+</span></span></code></pre></div><h3 id="github-gists">GitHub Gists</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>{{&lt; gist user hash &gt;}}
+</span></span></code></pre></div><h2 id="best-practices">Best Practices</h2>
+<ol>
+<li>
+<p><strong>Privacy Considerations</strong></p>
+<ul>
+<li>Hugo&rsquo;s built-in shortcodes are privacy-aware</li>
+<li>They use no-JS versions when possible</li>
+<li>They respect user privacy settings</li>
+</ul>
+</li>
+<li>
+<p><strong>Performance Tips</strong></p>
+<ul>
+<li>Use shortcodes instead of raw embeds</li>
+<li>They load faster and are more efficient</li>
+<li>They&rsquo;re automatically responsive</li>
+</ul>
+</li>
+<li>
+<p><strong>Common Mistakes to Avoid</strong></p>
+<ul>
+<li>Don&rsquo;t forget the closing bracket <code>&gt;}}</code></li>
+<li>Make sure to copy the correct video/tweet ID</li>
+<li>Don&rsquo;t add extra spaces in the shortcode</li>
+</ul>
+</li>
+</ol>
+<h2 id="troubleshooting-tips">Troubleshooting Tips</h2>
+<ol>
+<li>
+<p><strong>Video Not Loading?</strong></p>
+<ul>
+<li>Check if the video ID is correct</li>
+<li>Verify the video is public</li>
+<li>Make sure you&rsquo;re using the right shortcode format</li>
+</ul>
+</li>
+<li>
+<p><strong>Tweet Not Displaying?</strong></p>
+<ul>
+<li>Confirm the tweet is public</li>
+<li>Double-check the user and ID</li>
+<li>Ensure proper formatting of the shortcode</li>
+</ul>
+</li>
+</ol>
+<h2 id="additional-resources">Additional Resources</h2>
+<ol>
+<li>
+<p><strong>Where to Learn More</strong></p>
+<ul>
+<li>Hugo Documentation</li>
+<li>Hugo Forums</li>
+<li>Community Guides</li>
+</ul>
+</li>
+<li>
+<p><strong>Custom Shortcodes</strong></p>
+<ul>
+<li>You can create your own shortcodes</li>
+<li>They use Go templating</li>
+<li>Can be more advanced for specific needs</li>
+</ul>
+</li>
+</ol>
+<p>Remember: Shortcodes are meant to make your life easier. If you&rsquo;re writing complex HTML to embed content, there&rsquo;s probably a shortcode that can do it for you!</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/markdown/">Markdown</a></li>
+        <li><a href="/tags/tutorial/">Tutorial</a></li>
+        <li><a href="/tags/hugo/">Hugo</a></li>
+        <li><a href="/tags/blog/">Blog</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+
+&lt;---
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
@@ -358,3 +571,4 @@ YouTube Videos</p>
     
   </body>
 </html>
+--->

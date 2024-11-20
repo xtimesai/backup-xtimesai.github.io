@@ -1,5 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Windows系统Hugo安装指南 | X times Ai</title>
 
 
+
+
+
+</head>
+<body>
+  <header>
+    <h1>X times Ai</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/notes/">Notes</a>
+    </li>
+    <li>
+      <a href="/tags/blog/">Tags</a>
+    </li>
+    <li>
+      <a href="/collections/">Collections</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Windows系统Hugo安装指南</h1>
+
+  
+  
+  <time datetime="2024-11-17T10:48:12-05:00">November 17, 2024</time>
+
+  <h2 id="准备工作">准备工作</h2>
+<p>在开始安装Hugo之前，我们需要在系统中创建必要的文件夹结构。</p>
+<h3 id="1-创建基础文件夹">1. 创建基础文件夹</h3>
+<ol>
+<li>打开文件资源管理器</li>
+<li>导航到C盘根目录 (C:)</li>
+<li>创建一个名为<code>Hugo</code>的新文件夹(注意首字母大写)</li>
+<li>在<code>Hugo</code>文件夹内创建一个名为<code>bin</code>的子文件夹(使用小写)</li>
+</ol>
+<p>文件夹结构应该如下：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>C:\Hugo
+</span></span><span style="display:flex;"><span>└── bin
+</span></span></code></pre></div><h2 id="下载hugo">下载Hugo</h2>
+<h3 id="2-获取hugo可执行文件">2. 获取Hugo可执行文件</h3>
+<ol>
+<li>访问Hugo的GitHub发布页面：https://github.com/gohugoio/hugo/releases</li>
+<li>找到最新版本的下载区域</li>
+<li>根据您的Windows系统选择合适的版本：
+<ul>
+<li>Windows 64位系统：选择 <code>hugo_X.XX.X_windows-amd64.zip</code></li>
+<li>Windows 32位系统：选择 <code>hugo_X.XX.X_windows-386.zip</code>
+(其中X.XX.X代表版本号)</li>
+</ul>
+</li>
+</ol>
+<h3 id="3-解压文件">3. 解压文件</h3>
+<ol>
+<li>找到下载的zip文件</li>
+<li>右键点击zip文件</li>
+<li>选择&quot;提取所有&quot;</li>
+<li>选择目标路径为：<code>C:\Hugo\bin</code></li>
+<li>点击&quot;提取&quot;</li>
+</ol>
+<h3 id="4-检查文件">4. 检查文件</h3>
+<p>解压后，确保<code>C:\Hugo\bin</code>文件夹中包含以下文件：</p>
+<ul>
+<li>hugo.exe (可执行文件)</li>
+<li>LICENSE</li>
+<li>README.md</li>
+</ul>
+<h2 id="配置环境变量">配置环境变量</h2>
+<h3 id="5-添加系统环境变量">5. 添加系统环境变量</h3>
+<ol>
+<li>按下Windows键，输入&quot;environment&quot;</li>
+<li>点击&quot;编辑系统环境变量&quot;</li>
+<li>在弹出的窗口中点击&quot;环境变量&quot;按钮</li>
+<li>在&quot;系统变量&quot;区域找到&quot;Path&quot;变量</li>
+<li>点击&quot;编辑&quot;</li>
+<li>点击&quot;新建&quot;</li>
+<li>输入：<code>C:\Hugo\bin</code></li>
+<li>依次点击&quot;确定&quot;关闭所有窗口</li>
+</ol>
+<h2 id="验证安装">验证安装</h2>
+<h3 id="6-测试安装">6. 测试安装</h3>
+<ol>
+<li>打开命令提示符(CMD)或PowerShell</li>
+<li>输入以下命令验证安装：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><p>如果看到Hugo的版本信息，说明安装成功。</p>
+<h2 id="常见问题解决">常见问题解决</h2>
+<h3 id="如果命令未被识别">如果命令未被识别：</h3>
+<ol>
+<li>确保环境变量设置正确</li>
+<li>可以通过以下命令查看Path变量：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#999">echo</span> %PATH%
+</span></span></code></pre></div><ol start="3">
+<li>确保<code>C:\Hugo\bin</code>路径包含在输出结果中</li>
+<li>如果修改了环境变量，需要重新打开命令提示符</li>
+</ol>
+<h2 id="后续步骤">后续步骤</h2>
+<p>完成安装后，您可以：</p>
+<ul>
+<li>开始创建新的Hugo网站</li>
+<li>学习Hugo的基本命令</li>
+<li>探索Hugo的主题和模板</li>
+</ul>
+<h2 id="注意事项">注意事项</h2>
+<ul>
+<li>请确保下载最新版本的Hugo</li>
+<li>保持文件夹路径简单，避免使用空格和特殊字符</li>
+<li>如果遇到权限问题，请确保以管理员身份运行命令提示符</li>
+</ul>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+
+&lt;---
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
@@ -286,3 +427,4 @@
     
   </body>
 </html>
+--->

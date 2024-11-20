@@ -1,5 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Markdown 语法入门指南 | X times Ai</title>
 
 
+
+
+
+</head>
+<body>
+  <header>
+    <h1>X times Ai</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/notes/">Notes</a>
+    </li>
+    <li>
+      <a href="/tags/blog/">Tags</a>
+    </li>
+    <li>
+      <a href="/collections/">Collections</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Markdown 语法入门指南</h1>
+
+  
+  
+  <time datetime="2024-11-10T09:07:12-05:00">November 10, 2024</time>
+
+  <h1 id="markdown-语法入门指南">Markdown 语法入门指南</h1>
+<h2 id="目录">目录</h2>
+<ul>
+<li><a href="#markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97">Markdown 语法入门指南</a>
+<ul>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#%E6%A0%87%E9%A2%98%E8%AE%BE%E7%BD%AE">标题设置</a></li>
+<li><a href="#%E6%AE%B5%E8%90%BD%E6%A0%BC%E5%BC%8F">段落格式</a></li>
+<li><a href="#%E6%96%87%E5%AD%97%E6%A0%B7%E5%BC%8F">文字样式</a>
+<ul>
+<li><a href="#%E7%B2%97%E4%BD%93%E6%96%87%E6%9C%AC">粗体文本</a></li>
+<li><a href="#%E6%96%9C%E4%BD%93%E6%96%87%E6%9C%AC">斜体文本</a></li>
+<li><a href="#%E7%B2%97%E4%BD%93%E5%92%8C%E6%96%9C%E4%BD%93%E7%BB%84%E5%90%88">粗体和斜体组合</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5">图片插入</a></li>
+<li><a href="#%E5%AE%9E%E9%99%85%E7%A4%BA%E4%BE%8B">实际示例</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="标题设置">标题设置</h2>
+<p>标题使用井号（#）创建。井号的数量决定标题的级别：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#999"># 一级标题（最大）
+</span></span></span><span style="display:flex;"><span><span style="color:#999"></span><span style="color:#aaa">## 二级标题
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa">### 三级标题
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa">#### 四级标题
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa">##### 五级标题
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa">###### 六级标题（最小）
+</span></span></span></code></pre></div><p><strong>重要提示：</strong></p>
+<ul>
+<li>井号后必须加一个空格</li>
+<li>标题级别要按顺序使用（不要从一级标题直接跳到四级标题）</li>
+<li>每个文档建议只使用一个一级标题</li>
+</ul>
+<h2 id="段落格式">段落格式</h2>
+<p>在 Markdown 中创建段落非常简单，只需要用空行分隔文本：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>这是第一段文字。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>这是第二段文字。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>这是第三段文字。
+</span></span></code></pre></div><p><strong>使用建议：</strong> 不要用空格或制表符缩进段落。</p>
+<h2 id="文字样式">文字样式</h2>
+<h3 id="粗体文本">粗体文本</h3>
+<p>有两种方式可以将文字设置为粗体：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>**使用双星号**
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">__使用双下划线__</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>这个词的**中间部分**是粗体
+</span></span></code></pre></div><h3 id="斜体文本">斜体文本</h3>
+<p>同样有两种方式可以将文字设置为斜体：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>*使用单星号*
+</span></span><span style="display:flex;"><span><span style="font-style:italic">_使用单下划线_</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>这个词的*中间部分*是斜体
+</span></span></code></pre></div><h3 id="粗体和斜体组合">粗体和斜体组合</h3>
+<p>你可以组合使用两种样式：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>***粗体加斜体***
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">**_粗体加斜体_**</span>
+</span></span></code></pre></div><h2 id="图片插入">图片插入</h2>
+<p>图片使用以下语法：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#000080">替代文本</span>](<span style="color:#008080">图片URL &#34;可选标题&#34;</span>)
+</span></span></code></pre></div><p>示例：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#000080">可爱的猫咪</span>](<span style="color:#008080">https://example.com/cat.jpg &#34;我的猫&#34;</span>)
+</span></span></code></pre></div><p>语法解析：</p>
+<ul>
+<li><code>!</code> - 告诉 Markdown 这是一张图片</li>
+<li><code>[替代文本]</code> - 图片的描述（当图片无法显示时会显示这段文字）</li>
+<li><code>(URL)</code> - 图片的网址或文件路径</li>
+<li><code>&quot;可选标题&quot;</code> - 鼠标悬停在图片上时显示的文字</li>
+</ul>
+<h2 id="实际示例">实际示例</h2>
+<p>这是一个综合运用的例子：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#999"># 我的旅行博客
+</span></span></span><span style="display:flex;"><span><span style="color:#999"></span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa">## 巴黎之行
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa"></span>
+</span></span><span style="display:flex;"><span>上周末，我第一次访问了**巴黎**。*埃菲尔铁塔*真是***太震撼了***！
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>![<span style="color:#000080">埃菲尔铁塔</span>](<span style="color:#008080">https://example.com/eiffel.jpg &#34;日落时分的巴黎&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa">### 游览景点
+</span></span></span><span style="display:flex;"><span><span style="color:#aaa"></span><span style="font-weight:bold">-</span> 巴黎圣母院
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">-</span> 卢浮宫
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">-</span> 凯旋门
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>真期待下次再来！
+</span></span></code></pre></div><p><strong>专业建议：</strong></p>
+<ol>
+<li>保持样式一致（选择使用星号或下划线后要一直使用同一种）</li>
+<li>使用标题创建清晰的文档结构</li>
+<li>始终为图片添加描述性的替代文本</li>
+<li>在标题前后留出空行，提高可读性</li>
+<li>不要过度使用格式化 - 如果所有内容都是粗体，就没有重点了！</li>
+</ol>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/markdown/">Markdown</a></li>
+        <li><a href="/tags/tutorial/">Tutorial</a></li>
+        <li><a href="/tags/hugo/">Hugo</a></li>
+        <li><a href="/tags/blog/">Blog</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+
+&lt;---
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
@@ -306,3 +467,4 @@
     
   </body>
 </html>
+--->

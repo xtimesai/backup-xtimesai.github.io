@@ -1,5 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Creating Your First Hugo Website: A Step-by-Step Guide | X times Ai</title>
 
 
+
+
+
+</head>
+<body>
+  <header>
+    <h1>X times Ai</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/notes/">Notes</a>
+    </li>
+    <li>
+      <a href="/tags/blog/">Tags</a>
+    </li>
+    <li>
+      <a href="/collections/">Collections</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Creating Your First Hugo Website: A Step-by-Step Guide</h1>
+
+  
+  
+  <time datetime="2024-11-17T18:48:12-05:00">November 17, 2024</time>
+
+  <p>Creating Your First Hugo Website: A Step-by-Step Guide
+创建你的第一个 Hugo 网站：分步指南</p>
+<h2 id="prerequisites--前提条件">Prerequisites | 前提条件</h2>
+<ul>
+<li>Hugo installed on your computer | 电脑上已安装 Hugo</li>
+<li>A terminal/command line interface | 终端/命令行界面</li>
+<li>A text editor of your choice | 你选择的文本编辑器</li>
+</ul>
+<h2 id="step-1-create-a-project-directory--步骤1创建项目目录">Step 1: Create a Project Directory | 步骤1：创建项目目录</h2>
+<ol>
+<li>Create a folder where you want to store your Hugo projects | 创建一个用于存储 Hugo 项目的文件夹</li>
+<li>Open your terminal | 打开终端</li>
+<li>Navigate to your project directory using the <code>cd</code> command | 使用 <code>cd</code> 命令导航到项目目录</li>
+</ol>
+<h2 id="step-2-create-a-new-hugo-site--步骤2创建新的-hugo-网站">Step 2: Create a New Hugo Site | 步骤2：创建新的 Hugo 网站</h2>
+<p>Run the following command in your terminal: | 在终端中运行以下命令：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site your_site_name
+</span></span></code></pre></div><p>Replace <code>your_site_name</code> with whatever you want to call your project. | 将 <code>your_site_name</code> 替换为你想要的项目名称。</p>
+<h2 id="step-3-understanding-the-project-structure--步骤3了解项目结构">Step 3: Understanding the Project Structure | 步骤3：了解项目结构</h2>
+<h3 id="-archetypes">📁 archetypes/</h3>
+<ul>
+<li>Contains templates for your content | 包含内容的模板</li>
+<li>Used for defining common metadata across similar content types | 用于定义相似内容类型的通用元数据</li>
+<li>Mainly used for advanced configurations | 主要用于高级配置</li>
+</ul>
+<h3 id="-content">📁 content/</h3>
+<ul>
+<li>Stores all your website content | 存储所有网站内容</li>
+<li>Place your pages, blog posts, and other content here | 在此放置你的页面、博客文章和其他内容</li>
+<li>Main directory where you&rsquo;ll spend most of your time writing | 你将花费最多时间写作的主要目录</li>
+</ul>
+<h3 id="-data">📁 data/</h3>
+<ul>
+<li>Acts as a simple database for your site | 作为网站的简单数据库</li>
+<li>Store JSON, YAML, or TOML files | 存储 JSON、YAML 或 TOML 文件</li>
+<li>Used for site-wide data that can be accessed by your templates | 用于可被模板访问的全站数据</li>
+</ul>
+<h3 id="-layouts">📁 layouts/</h3>
+<ul>
+<li>Contains your site&rsquo;s templates | 包含网站的模板</li>
+<li>Define how your content will be displayed | 定义内容如何显示</li>
+<li>Examples: headers, footers, page layouts | 示例：页眉、页脚、页面布局</li>
+<li>Create consistent looks across your site | 创建全站统一的外观</li>
+</ul>
+<h3 id="-static">📁 static/</h3>
+<ul>
+<li>Stores unchanging files | 存储不变的文件</li>
+<li>Contains: | 包含：
+<ul>
+<li>Images | 图片</li>
+<li>CSS files | CSS 文件</li>
+<li>JavaScript files | JavaScript 文件</li>
+<li>Downloads | 下载文件</li>
+<li>Other static assets | 其他静态资源</li>
+</ul>
+</li>
+</ul>
+<h3 id="-themes">📁 themes/</h3>
+<ul>
+<li>Houses downloaded themes | 存放下载的主题</li>
+<li>Allows you to use pre-built designs | 允许使用预构建的设计</li>
+<li>Great for beginners who don&rsquo;t want to create layouts from scratch | 适合不想从头开始创建布局的初学者</li>
+</ul>
+<h3 id="-configtoml">📄 config.toml</h3>
+<ul>
+<li>Main configuration file | 主配置文件</li>
+<li>Contains your site&rsquo;s settings | 包含网站的设置</li>
+<li>Define things like: | 定义诸如：
+<ul>
+<li>Site title | 网站标题</li>
+<li>Base URL | 基础 URL</li>
+<li>Language | 语言</li>
+<li>Other global settings | 其他全局设置</li>
+</ul>
+</li>
+</ul>
+<h2 id="step-4-initial-configuration--步骤4初始配置">Step 4: Initial Configuration | 步骤4：初始配置</h2>
+<ol>
+<li>Open <code>config.toml</code> in your text editor | 在文本编辑器中打开 <code>config.toml</code></li>
+<li>Set basic configurations: | 设置基本配置：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>title = <span style="color:#b84">&#34;Your Site Title&#34;</span>
+</span></span><span style="display:flex;"><span>baseURL = <span style="color:#b84">&#34;http://example.org/&#34;</span>
+</span></span><span style="display:flex;"><span>languageCode = <span style="color:#b84">&#34;en-us&#34;</span>
+</span></span></code></pre></div><h2 id="next-steps--后续步骤">Next Steps | 后续步骤</h2>
+<ol>
+<li>Choose and install a theme | 选择并安装主题</li>
+<li>Create your first content | 创建你的第一个内容</li>
+<li>Customize your layouts | 自定义布局</li>
+<li>Add static assets | 添加静态资源</li>
+</ol>
+<h2 id="tips-for-beginners--给初学者的提示">Tips for Beginners | 给初学者的提示</h2>
+<ul>
+<li>Start with the <code>content/</code> folder for adding pages | 从 <code>content/</code> 文件夹开始添加页面</li>
+<li>Use a pre-built theme initially | 初期使用预构建的主题</li>
+<li>Don&rsquo;t worry about complex layouts at first | 开始时不要担心复杂的布局</li>
+<li>Keep your static assets organized in the <code>static/</code> folder | 在 <code>static/</code> 文件夹中组织静态资源</li>
+<li>Make regular backups of your <code>config.toml</code> | 定期备份 <code>config.toml</code></li>
+</ul>
+<h2 id="common-gotchas--常见陷阱">Common Gotchas | 常见陷阱</h2>
+<ul>
+<li>Always run Hugo commands from your project root directory | 始终从项目根目录运行 Hugo 命令</li>
+<li>Keep file names lowercase and use hyphens instead of spaces | 保持文件名小写并使用连字符而不是空格</li>
+<li>Remember to rebuild your site after making changes | 记得在做出更改后重新构建网站</li>
+<li>Check your <code>baseURL</code> setting if links aren&rsquo;t working | 如果链接不工作，检查 <code>baseURL</code> 设置</li>
+</ul>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+
+&lt;---
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
@@ -308,3 +471,4 @@
     
   </body>
 </html>
+--->

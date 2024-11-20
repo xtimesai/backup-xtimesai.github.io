@@ -1,5 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>在 Netlify 上免费托管您的 Hugo 网站 | X times Ai</title>
 
 
+
+
+
+</head>
+<body>
+  <header>
+    <h1>X times Ai</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/notes/">Notes</a>
+    </li>
+    <li>
+      <a href="/tags/blog/">Tags</a>
+    </li>
+    <li>
+      <a href="/collections/">Collections</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>在 Netlify 上免费托管您的 Hugo 网站</h1>
+
+  
+  
+  <time datetime="2024-11-10T00:00:00&#43;00:00">November 10, 2024</time>
+
+  <h1 id="在-netlify-上免费托管您的-hugo-网站">在 Netlify 上免费托管您的 Hugo 网站</h1>
+<h2 id="什么是-netlify">什么是 Netlify？</h2>
+<p>Netlify 是一个免费的网站托管服务 - 可以将其视为让所有人都能在互联网上访问您网站的平台。它特别适合静态网站（如使用 Hugo 构建的网站），因为：</p>
+<ul>
+<li>基础使用完全免费</li>
+<li>速度非常快</li>
+<li>设置简单</li>
+<li>当您进行更改时自动更新网站</li>
+</ul>
+<h2 id="在-netlify-上设置您的网站">在 Netlify 上设置您的网站</h2>
+<h3 id="第一步准备配置">第一步：准备配置</h3>
+<p>在项目主文件夹中创建一个名为 <code>netlify.toml</code> 的文件。此文件告诉 Netlify 如何处理您的网站：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[build]
+</span></span><span style="display:flex;"><span>publish = <span style="color:#b84">&#34;public&#34;</span>          <span style="color:#998;font-style:italic"># 告诉 Netlify 您的完成网站文件在哪里</span>
+</span></span><span style="display:flex;"><span>command = <span style="color:#b84">&#34;hugo --gc --minify&#34;</span>  <span style="color:#998;font-style:italic"># 告诉 Netlify 使用 Hugo 构建您的网站</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># 主网站的设置</span>
+</span></span><span style="display:flex;"><span>[context.production.environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION = <span style="color:#b84">&#34;0.82.0&#34;</span>    <span style="color:#998;font-style:italic"># 指定使用的 Hugo 版本</span>
+</span></span><span style="display:flex;"><span>HUGO_ENV = <span style="color:#b84">&#34;production&#34;</span>    <span style="color:#998;font-style:italic"># 告诉 Hugo 这是用于您的正式网站</span>
+</span></span><span style="display:flex;"><span>HUGO_ENABLEGITINFO = <span style="color:#b84">&#34;true&#34;</span>  <span style="color:#998;font-style:italic"># 允许 Hugo 使用 Git 信息</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># 不同部署场景的设置</span>
+</span></span><span style="display:flex;"><span>[context.split1]
+</span></span><span style="display:flex;"><span>command = <span style="color:#b84">&#34;hugo --gc --minify --enableGitInfo&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context.split1.environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION = <span style="color:#b84">&#34;0.82.0&#34;</span>
+</span></span><span style="display:flex;"><span>HUGO_ENV = <span style="color:#b84">&#34;production&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># 预览部署的设置（当您想测试更改时）</span>
+</span></span><span style="display:flex;"><span>[context.deploy-preview]
+</span></span><span style="display:flex;"><span>command = <span style="color:#b84">&#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context.deploy-preview.environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION = <span style="color:#b84">&#34;0.82.0&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># 分支部署的设置</span>
+</span></span><span style="display:flex;"><span>[context.branch-deploy]
+</span></span><span style="display:flex;"><span>command = <span style="color:#b84">&#34;hugo -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context.branch-deploy.environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION = <span style="color:#b84">&#34;0.82.0&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context.next.environment]
+</span></span><span style="display:flex;"><span>HUGO_ENABLEGITINFO = <span style="color:#b84">&#34;true&#34;</span>
+</span></span></code></pre></div><h3 id="第二步选择部署方式">第二步：选择部署方式</h3>
+<p>您有两种方式将网站部署到 Netlify：</p>
+<h4 id="方式一直接上传">方式一：直接上传</h4>
+<ol>
+<li>在本地构建 Hugo 站点（运行 <code>hugo</code> 命令）</li>
+<li>访问 Netlify 网站</li>
+<li>注册或登录</li>
+<li>将 <code>public</code> 文件夹拖放到 Netlify 的仪表板</li>
+<li>您的网站就上线了！</li>
+</ol>
+<h4 id="方式二github-集成推荐">方式二：GitHub 集成（推荐）</h4>
+<ol>
+<li>将您的 Hugo 站点放在 GitHub 上</li>
+<li>登录 Netlify</li>
+<li>点击&quot;New site from Git&quot;</li>
+<li>选择 GitHub 并选择您的仓库</li>
+<li>Netlify 将自动：
+<ul>
+<li>在您更新 GitHub 时构建您的网站</li>
+<li>部署您的更改</li>
+<li>处理所有技术细节</li>
+</ul>
+</li>
+</ol>
+<h3 id="第三步自定义域名可选">第三步：自定义域名（可选）</h3>
+<ul>
+<li>Netlify 提供免费域名，如 <code>your-site-name.netlify.app</code></li>
+<li>您可以通过 Netlify 的设置添加自己的自定义域名</li>
+<li>Netlify 甚至提供免费的 HTTPS 证书</li>
+</ul>
+<h2 id="成功提示">成功提示</h2>
+<ul>
+<li>在推送到 GitHub 之前始终在本地测试您的网站</li>
+<li>确保 <code>netlify.toml</code> 中的 Hugo 版本与您本地使用的版本匹配</li>
+<li>如果使用 GitHub，请将 <code>public</code> 文件夹放在 <code>.gitignore</code> 文件中</li>
+<li>使用 Netlify 的部署预览来检查更改是否生效</li>
+</ul>
+<h2 id="常见问题及解决方案">常见问题及解决方案</h2>
+<ol>
+<li>
+<p><strong>构建失败</strong></p>
+<ul>
+<li>检查您的 Hugo 版本是否与 netlify.toml 匹配</li>
+<li>确保包含所有主题文件</li>
+</ul>
+</li>
+<li>
+<p><strong>图片不显示</strong></p>
+<ul>
+<li>检查图片路径是否正确</li>
+<li>确保图片在 static 文件夹中</li>
+</ul>
+</li>
+<li>
+<p><strong>部署停滞</strong></p>
+<ul>
+<li>检查您的仓库权限</li>
+<li>验证 netlify.toml 中的构建设置</li>
+</ul>
+</li>
+</ol>
+<p>需要帮助？查看 Netlify 的文档或他们的社区论坛寻求支持！</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/markdown/">Markdown</a></li>
+        <li><a href="/tags/tutorial/">Tutorial</a></li>
+        <li><a href="/tags/hugo/">Hugo</a></li>
+        <li><a href="/tags/blog/">Blog</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
+
+&lt;---
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
   <head>
@@ -319,3 +493,4 @@
     
   </body>
 </html>
+--->
