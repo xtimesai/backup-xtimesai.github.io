@@ -51,6 +51,6 @@ Whenever doubt creeps in, remind yourself:
 
 In this ever-changing world, keeping your faith strong and your patience steady isn’t just about enduring—it’s about thriving. Trust that life is not happening to you but for you. Hold on, stay the course, and watch as everything comes together, just as it was meant to.
 
-![my first test blog post](Keep_Your_Faith_Strong_and_Your_Patience.png)
+![Keep Your Faith Strong and Your Patience Steady](Keep_Your_Faith_Strong_and_Your_Patience.png)
 
 {{< video src="Keep_Your_Faith_Strong_and_Your_Patience.mp4" >}}
