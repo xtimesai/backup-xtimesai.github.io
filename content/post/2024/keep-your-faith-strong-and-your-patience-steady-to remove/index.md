@@ -1,5 +1,5 @@
 ---
-title: "Keep Your Faith Strong and Your Patience"
+title: "First to be removed"
 date: 2024-11-18
 description: "Keep Your Faith Strong and Your Patience Steady: Everything is Coming Together for You
 
