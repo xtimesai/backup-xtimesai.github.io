@@ -357,12 +357,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/post/2020/jan/markdown/</loc>
+    <loc>https://xtimesai.github.io/post/2020/markdown/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://xtimesai.github.io/post/2020/markdown/</loc>
+    <loc>https://xtimesai.github.io/post/2020/jan/markdown/</loc>
     <lastmod>2020-01-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -398,11 +398,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://xtimesai.github.io/post/2020/jan/who-am-i/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://xtimesai.github.io/post/2020/who-am-i/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

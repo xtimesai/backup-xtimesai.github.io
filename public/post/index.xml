@@ -249,18 +249,18 @@
       <description>&lt;h3 id=&#34;hugo&#34;&gt;Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What is Markdown ?</title>
-      <link>https://xtimesai.github.io/post/2020/jan/markdown/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/post/2020/jan/markdown/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;What is Markdown?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>What is Markdown ?</title>
+      <title>What is Markdown ? - 1</title>
       <link>https://xtimesai.github.io/post/2020/markdown/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>https://xtimesai.github.io/post/2020/markdown/</guid>
       <description>&lt;h3 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h3&gt;&#xA;&lt;p&gt;Markdown is a lightweight, plain-text formatting language used for creating styled text through simple, readable syntax. Developed by John Gruber in 2004, its goal is to allow writers to format documents without complex code, making it easy to read and edit. The beauty of Markdown lies in its simplicity, allowing creators to add headings, lists, images, links, and more by typing a few symbols around their text.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Markdown ? - 2</title>
+      <link>https://xtimesai.github.io/post/2020/jan/markdown/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
+      <guid>https://xtimesai.github.io/post/2020/jan/markdown/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is Markdown?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic Syntax</title>
@@ -295,13 +295,6 @@
       <link>https://xtimesai.github.io/post/2020/jan/who-am-i/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>https://xtimesai.github.io/post/2020/jan/who-am-i/</guid>
-      <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Who am I ?!</title>
-      <link>https://xtimesai.github.io/post/2020/who-am-i/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
-      <guid>https://xtimesai.github.io/post/2020/who-am-i/</guid>
       <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
     </item>
     <item>
