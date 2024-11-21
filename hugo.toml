@@ -12,7 +12,6 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClassic = true
 pygmentOptions = "linenos=inline"
-#googleAnalytics = "XXX"
 enableRobotsTXT = true
 enableGitInfo = false
 ignoreLogs = ['warning-goldmark-raw-html']
@@ -33,13 +32,18 @@ Lastmod = false
 rss = true
 pagination = "10"
 hideAuthor = false
-description="Ai Times Daily"
-lunrSearch = true
-previewCardImagePlacement = "top"
+description = "X times Ai"
+
+# Keep only one Lunr search configuration
+[Params.lunrSearch]
+enabled = true
+selfHosted = false
 
 # Add the custom CSS integration
 [Params.assets]
 customCSS = ["css/custom.scss"]
+
+# Rest of the configuration remains the same...
 
 [pagination]
 pagerSize = 6
@@ -61,7 +65,7 @@ pagerSize = 6
 
 [Params.Author]
   name = "John Liu"
-  website = "https://aixdaily.github.io/"
+  website = "https://xtimesai.github.io/"
   authorInfo = "Stay Humble, Stay Hungry"
   authorPostImage = "/img/author-post-img.jpg"
   facebook = "username"
