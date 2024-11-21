@@ -5,43 +5,13 @@
     <loc>https://xtimesai.github.io/en/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ml"
-                href="https://xtimesai.github.io/ml/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xtimesai.github.io/en/"
-                />
   </url><url>
     <loc>https://xtimesai.github.io/en/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ml"
-                href="https://xtimesai.github.io/ml/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xtimesai.github.io/en/categories/"
-                />
   </url><url>
     <loc>https://xtimesai.github.io/en/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ml"
-                href="https://xtimesai.github.io/ml/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xtimesai.github.io/en/tags/"
-                />
   </url>
 </urlset>

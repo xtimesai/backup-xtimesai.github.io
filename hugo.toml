@@ -52,12 +52,12 @@ pagerSize = 6
     title = "Ai x Daily"
     contentDir = "content/en"
 
-  [languages.ml]
-    LanguageCode  = "ml"
-    LanguageName = "Malayalam"
-    weight = 2
-    title = "Malayalam Site"
-    contentDir = "content/ml"
+#  [languages.ml]
+#    LanguageCode  = "ml"
+#    LanguageName = "Malayalam"
+#    weight = 2
+#    title = "Malayalam Site"
+#    contentDir = "content/ml"
 
 [Params.Author]
   name = "John Liu"
