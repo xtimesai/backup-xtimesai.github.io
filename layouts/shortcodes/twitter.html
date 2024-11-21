@@ -1,0 +1,6 @@
+{{ $user := .Get "user" }}
+{{ $id := .Get "id" }}
+
+<blockquote class="twitter-tweet">
+  <a href="https://twitter.com/{{ $user }}/status/{{ $id }}"></a>
+</blockquote>
