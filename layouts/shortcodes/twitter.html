@@ -1,6 +1,6 @@
 {{ $user := .Get "user" }}
-{{ $id := .Get "id" }}
+{{ $id := string (.Get "id") }}
 
 <blockquote class="twitter-tweet">
-  <a href="https://twitter.com/{{ $user }}/status/{{ $id }}"></a>
+  <a href="https://twitter.com/{{ $user }}/status/{{ $id }}" title="View tweet by @{{ $user }}">View Tweet</a>
 </blockquote>
