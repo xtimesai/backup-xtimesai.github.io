@@ -1,9 +1,12 @@
-baseURL = "https://xtimesai.github.io/"
+baseURL = 'https://xtimesai.github.io'
+languageCode = 'en-us'
+title = 'X times Ai each day'
+theme = 'lightbi-hugo'
+
+
+
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-languageCode = "en-us"
-title = "X times Ai"
-theme = "lightbi-hugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 #pygmentsUseClasses = true
@@ -17,10 +20,6 @@ enableRobotsTXT = true
 enableGitInfo = false
 summaryLength  = "30"
 ignoreLogs = ['warning-goldmark-raw-html']
-
-# Add the custom CSS integration
-[Params.assets]
-customCSS = ["css/custom.scss"]
 
 [pagination]
 pagerSize = 6
@@ -47,17 +46,17 @@ description="Your can add your website description here."
 previewCardImagePlacement = "top"
 
 [Params.Author]
-  name = "John Liu"
-  website = "https://xtimesai.github.io"
-  authorInfo = "Stay Hungry, Stay Humble."
+  name = "Bino Kochumol Varghese"
+  website = "https://www.binovarghese.com/"
+  authorInfo = "Live your life as though every moment matters, because in the end, it's not the years in your life, but the life in your years that counts."
   authorPostImage = "/img/author-post-img.jpg"
-  email = "johnazureengineer@gmail.com"
+  email = "sample@gmail.com"
   facebook = "username"
   instagram = "username"
   youtube = "user/username" # or channel/channelname
-  twitter = "@mydailylivemail"
+  twitter = "username"
   linkedin = "username"
-  github = "xtimesai"
+  github = "username"
   threads = "username"
   gitlab = "username"
   reddit = "username"

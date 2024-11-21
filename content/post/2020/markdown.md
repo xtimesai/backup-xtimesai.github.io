@@ -1,5 +1,5 @@
 ---
-title: What is Markdown ? - 1
+title: What is Markdown ?
 date: 2020-01-27
 tags: ["markdown"]
 image : "/img/posts/img-3.jpg"
