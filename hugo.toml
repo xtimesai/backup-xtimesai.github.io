@@ -1,6 +1,6 @@
 baseURL = "https://xtimesai.github.io/"
 DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 languageCode = "en"
 title = "X times Ai"
 theme = "lightbi-hugo"
