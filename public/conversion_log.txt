@@ -1,0 +1,7 @@
+Converted: Be Patient.md -> be-patient/index.md
+Converted: Creating Your First Hugo Website.md -> creating-your-first-hugo-website/index.md
+Converted: Focus-on-your-peace.md -> focus-on-your-peace/index.md
+Converted: Windows系统Hugo安装指南.md -> windows系统hugo安装指南/index.md
+Converted: create_a_mp3_file.md -> create_a_mp3_file/index.md
+Converted: 来图书馆取几本书.md -> 来图书馆取几本书/index.md
+Conversion completed at Tue Nov 19 19:11:33 EST 2024
