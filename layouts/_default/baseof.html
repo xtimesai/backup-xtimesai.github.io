@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
-  <head>
+<head>
     {{ partial "head.html" . }}
-  </head>
-  <body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}</title>
+</head>
+<body>
     {{ partial "nav.html" . }}
-    {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
-    {{ block "main" . }}{{ end }}
+    
+    {{ block "header" . }}
+        {{ partial "header.html" . }}
+    {{ end }}
+    
+    <main>
+        {{ block "main" . }}
+            <!-- Main content will be inserted here by child templates -->
+        {{ end }}
+    </main>
+    
     {{ partial "footer.html" . }}
-    {{ block "footer" . }}{{ end }}
-  </body>
+    
+    {{ block "footer" . }}
+        <!-- Optional additional footer block for child templates -->
+    {{ end }}
+</body>
 </html>
-
