@@ -6,15 +6,16 @@
     <description>Recent content in 语法 on X times Ai each day</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
-    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
+    <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
+    <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
+    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E8%AF%AD%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Markdown 语法入门指南</title>
       <link>http://localhost:1313/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>http://localhost:1313/post/2024/markdown-%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Write your introduction here. The first few sentences should hook your reader and give them a clear idea of what to expect from this post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-content&#34;&gt;Main Content&lt;/h2&gt;&#xA;&lt;p&gt;Your main content goes here. Remember to:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

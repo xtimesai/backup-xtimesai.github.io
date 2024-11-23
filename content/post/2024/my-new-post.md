@@ -3,8 +3,8 @@ title: "My New Post"
 date: 2024-11-11T15:25:06-05:00
 description : "Description goes here..."
 tags: [""]
-image : "skating.jpeg"
-draft: true
+image : "img/skating.jpeg"
+draft: false
 ---
 
 how to ensure the archetypes/bundle-post/index.md file exists.?

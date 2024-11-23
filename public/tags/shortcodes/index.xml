@@ -6,21 +6,21 @@
     <description>Recent content in Shortcodes on X times Ai each day</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
-    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
+    <managingEditor>johnazureengineer@gmail.com (John Liu)</managingEditor>
+    <webMaster>johnazureengineer@gmail.com (John Liu)</webMaster>
     <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Hugo Shortcodes</title>
       <link>http://localhost:1313/post/2020/understanding-hugo-shortcodes/</link>
-      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>http://localhost:1313/post/2020/understanding-hugo-shortcodes/</guid>
       <description>&lt;p&gt;Hugo shortcodes are powerful tools for adding custom HTML or other special content within Markdown files without complex code. They enable enhanced flexibility and are a core part of Hugo&amp;rsquo;s functionality, offering reusable snippets for embedding media, custom components, or dynamic content. Below, we’ll explore what shortcodes are and highlight some popular examples.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lightbi Custom Shortcodes</title>
       <link>http://localhost:1313/post/2020/custom-shortcodes/</link>
-      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><author>johnazureengineer@gmail.com (John Liu)</author>
       <guid>http://localhost:1313/post/2020/custom-shortcodes/</guid>
       <description>&lt;p&gt;To create your own shortcodes in Hugo, add an HTML file in layouts/shortcodes/. This theme provides the following useful custom shortcodes:&lt;/p&gt;&#xA;&lt;h3 id=&#34;info-card&#34;&gt;Info card&lt;/h3&gt;&#xA;&lt;p&gt;Displays information in a card format.&lt;/p&gt;&#xA;&lt;h5 id=&#34;shortcode&#34;&gt;Shortcode&lt;/h5&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{/* &amp;lt; info_cards header=&amp;#34;lorem-ipsum&amp;#34; title=&amp;#34;What is Lorem Ipsum?&amp;#34; content=&amp;#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&amp;#34; &amp;gt; */}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;output&#34;&gt;Output&lt;/h5&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;card alert alert-primary&#34;&gt;&#xA;        &#xA;        &lt;h5 class=&#34;card-title m-0&#34;&gt;&#xA;            What is Lorem Ipsum?&#xA;        &lt;/h5&gt;&#xA;        &#xA;&#xA;        &lt;p class=&#34;card-text text-muted fs-6 mt-0&#34;&gt;  &#xA;             &#xA;            Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#xA;            &#xA;        &lt;/p&gt;</description>
     </item>
