@@ -2,7 +2,7 @@
 title: Beginner's Guide to Using a Hugo Theme
 date: 2024-11-10
 tags: ["hugo","blog"]
-image : "/img/posts/img-2.jpg"
+image : "/img/walmart-cucumber.jpeg"
 Description  : "This guide provides a comprehensive foundation for getting started with your Hugo theme."
 featured: true
 ---
