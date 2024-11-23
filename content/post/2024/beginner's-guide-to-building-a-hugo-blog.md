@@ -4,7 +4,7 @@ date: 2024-11-10T08:51:54-05:00
 description : "Description goes here..."
 tags: [""]
 image : "/img/posts/img-3.jpg"
-draft: true
+draft: false
 ---
 
 # Beginner's Guide to Building a Hugo Blog

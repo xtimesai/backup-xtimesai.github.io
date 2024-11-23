@@ -28,7 +28,7 @@ Open the file in a text editor and add the following front matter template:
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: false
 resources:
   - name: "featured-image"
     src: "featured.jpg"

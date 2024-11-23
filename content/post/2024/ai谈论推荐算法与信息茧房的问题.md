@@ -5,7 +5,7 @@ description: "探索AI如何在抖音上讨论推荐算法和信息茧房的影�
 tags: ["AI", "推荐算法", "信息茧房", "抖音", "社会媒体"]
 image: "/img/skating.jpeg"
 hideImageInContent: true
-draft: true
+draft: false
 ---
 
 

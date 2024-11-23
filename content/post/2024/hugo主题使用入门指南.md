@@ -1,7 +1,7 @@
 ---
 title: 'Hugo主题使用入门指南'
 date: 2024-11-10T08:34:12-05:00
-draft: true
+draft: false
 tags: ["hugo","blog"]
 image : "/img/posts/img-1.jpg"
 Description  : "这份指南为您提供了开始使用 Hugo 主题的完整基础知识。"
