@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X times Ai each day</title>
+    <link>https://xtimesai.github.io/post/</link>
+    <description>Recent content on X times Ai each day</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
+    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
+    <lastBuildDate>Sun, 10 Nov 2024 19:55:13 -0500</lastBuildDate>
+    <atom:link href="https://xtimesai.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI谈论推荐算法与信息茧房的问题</title>
+      <link>https://xtimesai.github.io/post/2020/my-first-blog/</link>
+      <pubDate>Sun, 10 Nov 2024 19:55:13 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/my-first-blog/</guid>
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;zh&#34; dir=&#34;ltr&#34;&gt;这期节目在抖音已经突破60万的播放量，我们让AI谈论推荐算法与信息茧房的问题。&lt;br&gt;This episode on Douyin has over 600,000 views, featuring an AI discussing recommendation algorithms and information bubbles.&lt;a href=&#34;https://twitter.com/hashtag/aiart?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aiart&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aitalk?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aitalk&lt;/a&gt; &lt;a href=&#34;https://t.co/xmTni5YKBx&#34;&gt;pic.twitter.com/xmTni5YKBx&lt;/a&gt;&lt;/p&gt;&amp;mdash; 汗青 HQ (@hanqing_me) &lt;a href=&#34;https://twitter.com/hanqing_me/status/1855555630121238942?ref_src=twsrc%5Etfw&#34;&gt;November 10, 2024&lt;/a&gt;&lt;/blockquote&gt;&#xA;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&#xA;&lt;p&gt;Twitter url:&#xA;&lt;a href=&#34;https://x.com/hanqing_me/status/1855555630121238942&#34;&gt;https://x.com/hanqing_me/status/1855555630121238942&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Hugo in Windows</title>
+      <link>https://xtimesai.github.io/post/2020/install-hugo/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/install-hugo/</guid>
+      <description>&lt;p&gt;Hugo comes in three versions: Standard, Extended, and Extended/Deploy. The Standard edition covers core functionalities, while Extended adds advanced options, with Extended/Deploy** offering further deployment features.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-your-directories&#34;&gt;Setting Up Your Directories&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open File Explorer and create a folder, e.g., &lt;code&gt;C:\Hugo&lt;/code&gt;, and inside it, a &lt;code&gt;bin&lt;/code&gt; folder.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Download the latest Hugo executable from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases/&#34;&gt;Hugo releases&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to use Lightbi theme ?</title>
+      <link>https://xtimesai.github.io/post/2020/use-this-theme/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/use-this-theme/</guid>
+      <description>&lt;p&gt;In this post, we&amp;rsquo;ll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo’s quick-start guide&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create a New Hugo Site&lt;/strong&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;cd&lt;/span&gt; &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; config.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;After the above copy the contents of exampleSite to the content folder in your website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Features of Lightbi</title>
+      <link>https://xtimesai.github.io/post/2020/features-of-lightbi/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/features-of-lightbi/</guid>
+      <description>&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Three Main Content Sections:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collections&lt;/strong&gt; (Newsletter)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built with a &lt;strong&gt;mobile-first approach&lt;/strong&gt; for seamless viewing on any device.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Card-Based Theme&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Flexible image placement options:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Image at the top of the card&lt;/li&gt;&#xA;&lt;li&gt;Image in the middle of the card&lt;/li&gt;&#xA;&lt;li&gt;Image at the bottom of the card&lt;/li&gt;&#xA;&lt;li&gt;No image option&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Menu Location Indicator&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More about Lightbi</title>
+      <link>https://xtimesai.github.io/post/2020/more-about-lightbi/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/more-about-lightbi/</guid>
+      <description>&lt;h2 id=&#34;wiki&#34;&gt;Wiki&lt;/h2&gt;&#xA;&lt;p&gt;Checkout the &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/wiki&#34;&gt;wiki&lt;/a&gt; page for detailed documentation of the theme features.&lt;/p&gt;&#xA;&lt;h2 id=&#34;support--contribution&#34;&gt;Support &amp;amp; Contribution&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Star 🌟 this &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo&#34;&gt;repository&lt;/a&gt;&lt;/strong&gt; to show your support!&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Help spread the word&lt;/strong&gt; about Hugo Lightbi by sharing it on social media and recommending it to your friends and colleagues.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Found a bug?&lt;/strong&gt; Report it via &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/issues/new&#34;&gt;GitHub Issues&lt;/a&gt; to help us improve.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Have feature ideas?&lt;/strong&gt; Start a conversation in &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/discussions&#34;&gt;GitHub Discussions&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Got questions?&lt;/strong&gt; Ask away in our &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/discussions&#34;&gt;GitHub Discussions&lt;/a&gt; community.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/halogenica/beautifulhugo&#34;&gt;Beautiful Hugo&lt;/a&gt; from which Lightbi was forked.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unsplash.com/&#34;&gt;Unsplash&lt;/a&gt; for Images.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;This is an adaptation of the &lt;a href=&#34;https://github.com/halogenica/beautifulhugo&#34;&gt;Beautiful Hugo&lt;/a&gt; by &lt;a href=&#34;https://github.com/halogenica&#34;&gt;Michael Romero&lt;/a&gt;. It supports most of the features of the original theme, and many new features. It has diverged from the original theme over time, with several updates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Hugo Shortcodes</title>
+      <link>https://xtimesai.github.io/post/2020/understanding-hugo-shortcodes/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/understanding-hugo-shortcodes/</guid>
+      <description>&lt;p&gt;Hugo shortcodes are powerful tools for adding custom HTML or other special content within Markdown files without complex code. They enable enhanced flexibility and are a core part of Hugo&amp;rsquo;s functionality, offering reusable snippets for embedding media, custom components, or dynamic content. Below, we’ll explore what shortcodes are and highlight some popular examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lightbi Custom Shortcodes</title>
+      <link>https://xtimesai.github.io/post/2020/custom-shortcodes/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/custom-shortcodes/</guid>
+      <description>&lt;p&gt;To create your own shortcodes in Hugo, add an HTML file in layouts/shortcodes/. This theme provides the following useful custom shortcodes:&lt;/p&gt;&#xA;&lt;h3 id=&#34;info-card&#34;&gt;Info card&lt;/h3&gt;&#xA;&lt;p&gt;Displays information in a card format.&lt;/p&gt;&#xA;&lt;h5 id=&#34;shortcode&#34;&gt;Shortcode&lt;/h5&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{/* &amp;lt; info_cards header=&amp;#34;lorem-ipsum&amp;#34; title=&amp;#34;What is Lorem Ipsum?&amp;#34; content=&amp;#34;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&amp;#34; &amp;gt; */}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;output&#34;&gt;Output&lt;/h5&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;card alert alert-primary&#34;&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;h5 class=&#34;card-title m-0&#34;&gt;&#xD;&#xA;            What is Lorem Ipsum?&#xD;&#xA;        &lt;/h5&gt;&#xD;&#xA;        &#xD;&#xA;&#xD;&#xA;        &lt;p class=&#34;card-text text-muted fs-6 mt-0&#34;&gt;  &#xD;&#xA;             &#xD;&#xA;            Lorem Ipsum is simply dummy text of the printing and typesetting industry.&#xD;&#xA;            &#xD;&#xA;        &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image Gallery Shortcode</title>
+      <link>https://xtimesai.github.io/post/2020/image-gallery/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/image-gallery/</guid>
+      <description>&lt;div class=&#34;card alert alert-primary&#34;&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;h5 class=&#34;card-title m-0&#34;&gt;&#xD;&#xA;            Experimental feature&#xD;&#xA;        &lt;/h5&gt;&#xD;&#xA;        &#xD;&#xA;&#xD;&#xA;        &lt;p class=&#34;card-text text-muted fs-6 mt-0&#34;&gt;  &#xD;&#xA;             &#xD;&#xA;            This feature is currently in experimental mode, so breaking changes may occur. Please use it carefully.&#xD;&#xA;            &#xD;&#xA;        &lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Here’s a custom Hugo shortcode that creates an image gallery in a masonry style using GLightbox, allowing you to specify a folder containing images. This approach will display images from a specified folder in a masonry layout, and each image will open in a lightbox when clicked.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hosting Your Hugo Site on Netlify</title>
+      <link>https://xtimesai.github.io/post/2020/netlify-configuration/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/netlify-configuration/</guid>
+      <description>&lt;p&gt;Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features like continuous deployment, a user-friendly dashboard, and advanced build settings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parameters in Lightbi</title>
+      <link>https://xtimesai.github.io/post/2020/parameters/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/parameters/</guid>
+      <description>&lt;p&gt;Below is a list of configurable parameters in the Lightbi theme, along with descriptions to help you customize your site effectively. You can be adjust the below parameters in your &lt;code&gt;hugo.toml&lt;/code&gt; file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Markdown ?</title>
+      <link>https://xtimesai.github.io/post/2020/markdown/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/markdown/</guid>
+      <description>&lt;h3 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h3&gt;&#xA;&lt;p&gt;Markdown is a lightweight, plain-text formatting language used for creating styled text through simple, readable syntax. Developed by John Gruber in 2004, its goal is to allow writers to format documents without complex code, making it easy to read and edit. The beauty of Markdown lies in its simplicity, allowing creators to add headings, lists, images, links, and more by typing a few symbols around their text.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://xtimesai.github.io/post/2020/syntax/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/syntax/</guid>
+      <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (h3), use three number signs (e.g., ### My Header).&#xA; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Who am I ?!</title>
+      <link>https://xtimesai.github.io/post/2020/who-am-i/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://xtimesai.github.io/post/2020/who-am-i/</guid>
+      <description>&lt;p&gt;Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.&lt;/p&gt;&#xA;&lt;p&gt;As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
