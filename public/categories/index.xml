@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on X times Ai each day</title>
-    <link>https://xtimesai.github.io/categories/</link>
+    <link>http://localhost:59683/categories/</link>
     <description>Recent content in Categories on X times Ai each day</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
     <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
     <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://xtimesai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59683/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General</title>
-      <link>https://xtimesai.github.io/categories/general/</link>
+      <link>http://localhost:59683/categories/general/</link>
       <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/categories/general/</guid>
+      <guid>http://localhost:59683/categories/general/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>https://xtimesai.github.io/categories/business/</link>
+      <link>http://localhost:59683/categories/business/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/categories/business/</guid>
+      <guid>http://localhost:59683/categories/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Entrepreneurship</title>
-      <link>https://xtimesai.github.io/categories/entrepreneurship/</link>
+      <link>http://localhost:59683/categories/entrepreneurship/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/categories/entrepreneurship/</guid>
+      <guid>http://localhost:59683/categories/entrepreneurship/</guid>
       <description></description>
     </item>
   </channel>
