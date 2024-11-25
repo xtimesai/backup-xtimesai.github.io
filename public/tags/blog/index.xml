@@ -1,126 +1,237 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on X times Ai each day</title>
-    <link>https://xtimesai.github.io/tags/blog/</link>
-    <description>Recent content in Blog on X times Ai each day</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
-    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
-    <lastBuildDate>Mon, 11 Nov 2024 10:07:12 -0500</lastBuildDate>
-    <atom:link href="https://xtimesai.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduction to Hugo | Hugo - Static Site Generator | Tutorial 1</title>
-      <link>https://xtimesai.github.io/post/introduction-to-hugo--hugo---static-site-generator--tutorial-1/</link>
-      <pubDate>Mon, 11 Nov 2024 10:07:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/introduction-to-hugo--hugo---static-site-generator--tutorial-1/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/qtIqKaDlqXo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=qtIqKaDlqXo&#34;&gt;https://www.youtube.com/watch?v=qtIqKaDlqXo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;236,467 views  Sep 10, 2017&#xA;Hugo Docs - &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;https://gohugo.io/documentation/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A Beginner&#39;s Guide to Hugo Shortcodes</title>
-      <link>https://xtimesai.github.io/post/a-beginners-guide-to-hugo-shortcodes/</link>
-      <pubDate>Sun, 10 Nov 2024 10:07:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/a-beginners-guide-to-hugo-shortcodes/</guid>
-      <description>&lt;h1 id=&#34;a-beginners-guide-to-hugo-shortcodes&#34;&gt;A Beginner&amp;rsquo;s Guide to Hugo Shortcodes&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-are-hugo-shortcodes&#34;&gt;What are Hugo Shortcodes?&lt;/h2&gt;&#xA;&lt;p&gt;Hugo shortcodes are special templates that let you easily add rich content to your website without writing complex HTML code. Think of them as simple shortcuts for inserting things like videos, tweets, and other media into your pages.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A Beginner&#39;s Guide to Markdown Syntax</title>
-      <link>https://xtimesai.github.io/post/a-beginners-guide-to-markdown-syntax/</link>
-      <pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/a-beginners-guide-to-markdown-syntax/</guid>
-      <description>&lt;h1 id=&#34;a-beginners-guide-to-markdown-syntax&#34;&gt;A Beginner&amp;rsquo;s Guide to Markdown Syntax&lt;/h1&gt;&#xA;&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headings&#34;&gt;Headings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#paragraphs&#34;&gt;Paragraphs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#text-styling&#34;&gt;Text Styling&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#examples&#34;&gt;Examples&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;Headings are created using the hash symbol (#). The number of hashes determines the heading level:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Understanding Markdown: A Beginner&#39;s Guide</title>
-      <link>https://xtimesai.github.io/post/understanding-markdown--a-beginners-guide/</link>
-      <pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/understanding-markdown--a-beginners-guide/</guid>
-      <description>&lt;h1 id=&#34;understanding-markdown-a-beginners-guide&#34;&gt;Understanding Markdown: A Beginner&amp;rsquo;s Guide&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h2&gt;&#xA;&lt;p&gt;Markdown is a simple way to format text that looks great on any device. Think of it as a simplified version of HTML or a smarter way to write for the web.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo主题使用入门指南</title>
-      <link>https://xtimesai.github.io/post/hugo%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Sun, 10 Nov 2024 08:34:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/hugo%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h1 id=&#34;hugo-主题使用入门指南&#34;&gt;Hugo 主题使用入门指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前置要求&#34;&gt;前置要求&lt;/h2&gt;&#xA;&lt;p&gt;开始之前，请确保您已准备：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;系统中已安装 &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;代码编辑器（如 VS Code、Sublime Text 等）&lt;/li&gt;&#xA;&lt;li&gt;基本的命令行操作知识&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;步骤一主题安装&#34;&gt;步骤一：主题安装&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;从源地址下载主题&lt;/li&gt;&#xA;&lt;li&gt;解压下载的文件&lt;/li&gt;&#xA;&lt;li&gt;进入主题文件夹：&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;cd&lt;/span&gt; lightbi-hugo-master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;步骤二项目结构&#34;&gt;步骤二：项目结构&lt;/h2&gt;&#xA;&lt;p&gt;主题文件夹应包含以下重要目录：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;archetypes/&lt;/code&gt; - 包含默认内容模板&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;content/&lt;/code&gt; - 存放网站内容的地方&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;layouts/&lt;/code&gt; - 包含主题模板&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;static/&lt;/code&gt; - 用于静态文件（图片、CSS、JavaScript）&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;config.toml&lt;/code&gt; - 主配置文件&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;步骤三构建网站&#34;&gt;步骤三：构建网站&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;构建网站，运行：&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;此命令将：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Beginner&#39;s Guide to Using a Hugo Theme</title>
-      <link>https://xtimesai.github.io/post/beginners-guide-to-using-hugo-theme/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/beginners-guide-to-using-hugo-theme/</guid>
-      <description>&lt;h1 id=&#34;beginners-guide-to-using-a-hugo-theme&#34;&gt;Beginner&amp;rsquo;s Guide to Using a Hugo Theme&lt;/h1&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;Before you begin, ensure you have:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Hugo&lt;/a&gt; installed on your system&lt;/li&gt;&#xA;&lt;li&gt;A code editor (like VS Code, Sublime Text, etc.)&lt;/li&gt;&#xA;&lt;li&gt;Basic familiarity with command line operations&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;step-1-theme-installation&#34;&gt;Step 1: Theme Installation&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Download the theme from the source&lt;/li&gt;&#xA;&lt;li&gt;Unzip the downloaded file&lt;/li&gt;&#xA;&lt;li&gt;Navigate to the theme folder:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;cd&lt;/span&gt; lightbi-hugo-master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;step-2-project-structure&#34;&gt;Step 2: Project Structure&lt;/h2&gt;&#xA;&lt;p&gt;The theme folder should contain these essential directories:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Host a Static Website for Free on Netlify</title>
-      <link>https://xtimesai.github.io/post/host-a-static-website-for-free-on-netlify/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/host-a-static-website-for-free-on-netlify/</guid>
-      <description>&lt;h1 id=&#34;hosting-your-hugo-website-for-free-on-netlify&#34;&gt;Hosting Your Hugo Website for Free on Netlify&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-netlify&#34;&gt;What is Netlify?&lt;/h2&gt;&#xA;&lt;p&gt;Netlify is like a free hosting service for your website - think of it as a place that makes your website available to everyone on the internet. It&amp;rsquo;s especially good for static websites (like those built with Hugo) because:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Youtube Test Copy</title>
-      <link>https://xtimesai.github.io/post/hugo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97_walmart_cucumber/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/hugo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97_walmart_cucumber/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/L34JL_3Jkyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As a beginner to Hugo, one of the first things you&amp;rsquo;ll want to do is create a custom theme for your blog. A custom theme allows you to personalize the look and feel of your website, making it unique and reflective of your brand.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>在 Netlify 上免费托管您的 Hugo 网站</title>
-      <link>https://xtimesai.github.io/post/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</guid>
-      <description>&lt;h1 id=&#34;在-netlify-上免费托管您的-hugo-网站&#34;&gt;在 Netlify 上免费托管您的 Hugo 网站&lt;/h1&gt;&#xA;&lt;h2 id=&#34;什么是-netlify&#34;&gt;什么是 Netlify？&lt;/h2&gt;&#xA;&lt;p&gt;Netlify 是一个免费的网站托管服务 - 可以将其视为让所有人都能在互联网上访问您网站的平台。它特别适合静态网站（如使用 Hugo 构建的网站），因为：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;基础使用完全免费&lt;/li&gt;&#xA;&lt;li&gt;速度非常快&lt;/li&gt;&#xA;&lt;li&gt;设置简单&lt;/li&gt;&#xA;&lt;li&gt;当您进行更改时自动更新网站&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;在-netlify-上设置您的网站&#34;&gt;在 Netlify 上设置您的网站&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一步准备配置&#34;&gt;第一步：准备配置&lt;/h3&gt;&#xA;&lt;p&gt;在项目主文件夹中创建一个名为 &lt;code&gt;netlify.toml&lt;/code&gt; 的文件。此文件告诉 Netlify 如何处理您的网站：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[build]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;publish = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;public&amp;#34;&lt;/span&gt;          &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 告诉 Netlify 您的完成网站文件在哪里&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo --gc --minify&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 告诉 Netlify 使用 Hugo 构建您的网站&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 主网站的设置&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.production.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 指定使用的 Hugo 版本&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENV = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;production&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 告诉 Hugo 这是用于您的正式网站&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENABLEGITINFO = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 允许 Hugo 使用 Git 信息&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 不同部署场景的设置&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.split1]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo --gc --minify --enableGitInfo&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.split1.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENV = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;production&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 预览部署的设置（当您想测试更改时）&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.deploy-preview]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.deploy-preview.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#998;font-style:italic&#34;&gt;# 分支部署的设置&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.branch-deploy]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;hugo -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.branch-deploy.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_VERSION = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;0.82.0&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[context.next.environment]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HUGO_ENABLEGITINFO = &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;第二步选择部署方式&#34;&gt;第二步：选择部署方式&lt;/h3&gt;&#xA;&lt;p&gt;您有两种方式将网站部署到 Netlify：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown 入门指南：给初学者的详细说明</title>
-      <link>https://xtimesai.github.io/post/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</link>
-      <pubDate>Sat, 09 Nov 2024 09:06:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</guid>
-      <description>&lt;h1 id=&#34;markdown-入门指南给初学者的详细说明&#34;&gt;Markdown 入门指南：给初学者的详细说明&lt;/h1&gt;&#xA;&lt;h2 id=&#34;什么是-markdown&#34;&gt;什么是 Markdown？&lt;/h2&gt;&#xA;&lt;p&gt;Markdown 是一种轻量级的文本格式化工具，它让你能够用简单的符号来美化文本。想象一下，它就像是一个更简单的 Word，但是用的是特殊符号而不是按钮来排版。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么要用-markdown&#34;&gt;为什么要用 Markdown？&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;简单易学&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;只需要记住几个符号&lt;/li&gt;&#xA;&lt;li&gt;不需要复杂的软件&lt;/li&gt;&#xA;&lt;li&gt;写作过程不被打断&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;通用性强&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可以转换成网页&lt;/li&gt;&#xA;&lt;li&gt;可以转换成 PDF&lt;/li&gt;&#xA;&lt;li&gt;几乎所有平台都支持&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;实用场景广&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;写博客&lt;/li&gt;&#xA;&lt;li&gt;做笔记&lt;/li&gt;&#xA;&lt;li&gt;写文档&lt;/li&gt;&#xA;&lt;li&gt;写说明书&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;基础语法示例&#34;&gt;基础语法示例&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-标题的写法&#34;&gt;1. 标题的写法&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;# 一级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;## 二级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa&#34;&gt;### 三级标题&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;效果如下：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Install Hugo in Windows</title>
-      <link>https://xtimesai.github.io/post/install-hugo/</link>
-      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/install-hugo/</guid>
-      <description>&lt;p&gt;Hugo comes in three versions: Standard, Extended, and Extended/Deploy. The Standard edition covers core functionalities, while Extended adds advanced options, with Extended/Deploy** offering further deployment features.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-your-directories&#34;&gt;Setting Up Your Directories&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open File Explorer and create a folder, e.g., &lt;code&gt;C:\Hugo&lt;/code&gt;, and inside it, a &lt;code&gt;bin&lt;/code&gt; folder.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Download the latest Hugo executable from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases/&#34;&gt;Hugo releases&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to use Lightbi theme ?</title>
-      <link>https://xtimesai.github.io/post/use-this-theme/</link>
-      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/use-this-theme/</guid>
-      <description>&lt;p&gt;In this post, we&amp;rsquo;ll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo’s quick-start guide&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create a New Hugo Site&lt;/strong&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;cd&lt;/span&gt; &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#999&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#b84&#34;&gt;&amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; config.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;After the above copy the contents of exampleSite to the content folder in your website.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Features of Lightbi</title>
-      <link>https://xtimesai.github.io/post/features-of-lightbi/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/features-of-lightbi/</guid>
-      <description>&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Three Main Content Sections:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collections&lt;/strong&gt; (Newsletter)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built with a &lt;strong&gt;mobile-first approach&lt;/strong&gt; for seamless viewing on any device.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Card-Based Theme&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Flexible image placement options:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Image at the top of the card&lt;/li&gt;&#xA;&lt;li&gt;Image in the middle of the card&lt;/li&gt;&#xA;&lt;li&gt;Image at the bottom of the card&lt;/li&gt;&#xA;&lt;li&gt;No image option&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Menu Location Indicator&lt;/strong&gt;:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>More about Lightbi</title>
-      <link>https://xtimesai.github.io/post/more-about-lightbi/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/more-about-lightbi/</guid>
-      <description>&lt;h2 id=&#34;wiki&#34;&gt;Wiki&lt;/h2&gt;&#xA;&lt;p&gt;Checkout the &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/wiki&#34;&gt;wiki&lt;/a&gt; page for detailed documentation of the theme features.&lt;/p&gt;&#xA;&lt;h2 id=&#34;support--contribution&#34;&gt;Support &amp;amp; Contribution&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Star 🌟 this &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo&#34;&gt;repository&lt;/a&gt;&lt;/strong&gt; to show your support!&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Help spread the word&lt;/strong&gt; about Hugo Lightbi by sharing it on social media and recommending it to your friends and colleagues.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Found a bug?&lt;/strong&gt; Report it via &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/issues/new&#34;&gt;GitHub Issues&lt;/a&gt; to help us improve.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Have feature ideas?&lt;/strong&gt; Start a conversation in &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/discussions&#34;&gt;GitHub Discussions&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Got questions?&lt;/strong&gt; Ask away in our &lt;a href=&#34;https://github.com/binokochumolvarghese/lightbi-hugo/discussions&#34;&gt;GitHub Discussions&lt;/a&gt; community.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/halogenica/beautifulhugo&#34;&gt;Beautiful Hugo&lt;/a&gt; from which Lightbi was forked.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unsplash.com/&#34;&gt;Unsplash&lt;/a&gt; for Images.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;This is an adaptation of the &lt;a href=&#34;https://github.com/halogenica/beautifulhugo&#34;&gt;Beautiful Hugo&lt;/a&gt; by &lt;a href=&#34;https://github.com/halogenica&#34;&gt;Michael Romero&lt;/a&gt;. It supports most of the features of the original theme, and many new features. It has diverged from the original theme over time, with several updates.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Image Gallery Shortcode</title>
-      <link>https://xtimesai.github.io/post/image-gallery/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/image-gallery/</guid>
-      <description>&lt;div class=&#34;card alert alert-primary&#34;&gt;&#xA;        &#xA;        &lt;h5 class=&#34;card-title m-0&#34;&gt;&#xA;            Experimental feature&#xA;        &lt;/h5&gt;&#xA;        &#xA;&#xA;        &lt;p class=&#34;card-text text-muted fs-6 mt-0&#34;&gt;  &#xA;             &#xA;            This feature is currently in experimental mode, so breaking changes may occur. Please use it carefully.&#xA;            &#xA;        &lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Here’s a custom Hugo shortcode that creates an image gallery in a masonry style using GLightbox, allowing you to specify a folder containing images. This approach will display images from a specified folder in a masonry layout, and each image will open in a lightbox when clicked.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Parameters in Lightbi</title>
-      <link>https://xtimesai.github.io/post/parameters/</link>
-      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author>
-      <guid>https://xtimesai.github.io/post/parameters/</guid>
-      <description>&lt;p&gt;Below is a list of configurable parameters in the Lightbi theme, along with descriptions to help you customize your site effectively. You can be adjust the below parameters in your &lt;code&gt;hugo.toml&lt;/code&gt; file.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on X times Ai each day</title><link>https://xtimesai.github.io/tags/blog/</link><description>Recent content in Blog on X times Ai each day</description><generator>Hugo</generator><language>en-us</language><managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor><webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster><lastBuildDate>Mon, 11 Nov 2024 10:07:12 -0500</lastBuildDate><atom:link href="https://xtimesai.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Hugo | Hugo - Static Site Generator | Tutorial 1</title><link>https://xtimesai.github.io/post/introduction-to-hugo--hugo---static-site-generator--tutorial-1/</link><pubDate>Mon, 11 Nov 2024 10:07:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/introduction-to-hugo--hugo---static-site-generator--tutorial-1/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qtIqKaDlqXo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=qtIqKaDlqXo">https://www.youtube.com/watch?v=qtIqKaDlqXo&lt;/a>&lt;/p>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>236,467 views Sep 10, 2017
+Hugo Docs - &lt;a href="https://gohugo.io/documentation/">https://gohugo.io/documentation/&lt;/a>&lt;/p></description></item><item><title>A Beginner's Guide to Hugo Shortcodes</title><link>https://xtimesai.github.io/post/a-beginners-guide-to-hugo-shortcodes/</link><pubDate>Sun, 10 Nov 2024 10:07:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/a-beginners-guide-to-hugo-shortcodes/</guid><description>&lt;h1 id="a-beginners-guide-to-hugo-shortcodes">A Beginner&amp;rsquo;s Guide to Hugo Shortcodes&lt;/h1>
+&lt;h2 id="what-are-hugo-shortcodes">What are Hugo Shortcodes?&lt;/h2>
+&lt;p>Hugo shortcodes are special templates that let you easily add rich content to your website without writing complex HTML code. Think of them as simple shortcuts for inserting things like videos, tweets, and other media into your pages.&lt;/p></description></item><item><title>A Beginner's Guide to Markdown Syntax</title><link>https://xtimesai.github.io/post/a-beginners-guide-to-markdown-syntax/</link><pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/a-beginners-guide-to-markdown-syntax/</guid><description>&lt;h1 id="a-beginners-guide-to-markdown-syntax">A Beginner&amp;rsquo;s Guide to Markdown Syntax&lt;/h1>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="#headings">Headings&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#paragraphs">Paragraphs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#text-styling">Text Styling&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#images">Images&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#examples">Examples&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;p>Headings are created using the hash symbol (#). The number of hashes determines the heading level:&lt;/p></description></item><item><title>Understanding Markdown: A Beginner's Guide</title><link>https://xtimesai.github.io/post/understanding-markdown--a-beginners-guide/</link><pubDate>Sun, 10 Nov 2024 09:06:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/understanding-markdown--a-beginners-guide/</guid><description>&lt;h1 id="understanding-markdown-a-beginners-guide">Understanding Markdown: A Beginner&amp;rsquo;s Guide&lt;/h1>
+&lt;h2 id="what-is-markdown">What is Markdown?&lt;/h2>
+&lt;p>Markdown is a simple way to format text that looks great on any device. Think of it as a simplified version of HTML or a smarter way to write for the web.&lt;/p></description></item><item><title>Hugo主题使用入门指南</title><link>https://xtimesai.github.io/post/hugo%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Sun, 10 Nov 2024 08:34:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/hugo%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="hugo-主题使用入门指南">Hugo 主题使用入门指南&lt;/h1>
+&lt;h2 id="前置要求">前置要求&lt;/h2>
+&lt;p>开始之前，请确保您已准备：&lt;/p>
+&lt;ol>
+&lt;li>系统中已安装 &lt;a href="https://gohugo.io/installation/">Hugo&lt;/a>&lt;/li>
+&lt;li>代码编辑器（如 VS Code、Sublime Text 等）&lt;/li>
+&lt;li>基本的命令行操作知识&lt;/li>
+&lt;/ol>
+&lt;h2 id="步骤一主题安装">步骤一：主题安装&lt;/h2>
+&lt;ol>
+&lt;li>从源地址下载主题&lt;/li>
+&lt;li>解压下载的文件&lt;/li>
+&lt;li>进入主题文件夹：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">cd&lt;/span> lightbi-hugo-master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="步骤二项目结构">步骤二：项目结构&lt;/h2>
+&lt;p>主题文件夹应包含以下重要目录：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>archetypes/&lt;/code> - 包含默认内容模板&lt;/li>
+&lt;li>&lt;code>content/&lt;/code> - 存放网站内容的地方&lt;/li>
+&lt;li>&lt;code>layouts/&lt;/code> - 包含主题模板&lt;/li>
+&lt;li>&lt;code>static/&lt;/code> - 用于静态文件（图片、CSS、JavaScript）&lt;/li>
+&lt;li>&lt;code>config.toml&lt;/code> - 主配置文件&lt;/li>
+&lt;/ul>
+&lt;h2 id="步骤三构建网站">步骤三：构建网站&lt;/h2>
+&lt;ol>
+&lt;li>构建网站，运行：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>此命令将：&lt;/p></description></item><item><title>Beginner's Guide to Using a Hugo Theme</title><link>https://xtimesai.github.io/post/beginners-guide-to-using-hugo-theme/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/beginners-guide-to-using-hugo-theme/</guid><description>&lt;h1 id="beginners-guide-to-using-a-hugo-theme">Beginner&amp;rsquo;s Guide to Using a Hugo Theme&lt;/h1>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>Before you begin, ensure you have:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://gohugo.io/installation/">Hugo&lt;/a> installed on your system&lt;/li>
+&lt;li>A code editor (like VS Code, Sublime Text, etc.)&lt;/li>
+&lt;li>Basic familiarity with command line operations&lt;/li>
+&lt;/ol>
+&lt;h2 id="step-1-theme-installation">Step 1: Theme Installation&lt;/h2>
+&lt;ol>
+&lt;li>Download the theme from the source&lt;/li>
+&lt;li>Unzip the downloaded file&lt;/li>
+&lt;li>Navigate to the theme folder:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">cd&lt;/span> lightbi-hugo-master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="step-2-project-structure">Step 2: Project Structure&lt;/h2>
+&lt;p>The theme folder should contain these essential directories:&lt;/p></description></item><item><title>Host a Static Website for Free on Netlify</title><link>https://xtimesai.github.io/post/host-a-static-website-for-free-on-netlify/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/host-a-static-website-for-free-on-netlify/</guid><description>&lt;h1 id="hosting-your-hugo-website-for-free-on-netlify">Hosting Your Hugo Website for Free on Netlify&lt;/h1>
+&lt;h2 id="what-is-netlify">What is Netlify?&lt;/h2>
+&lt;p>Netlify is like a free hosting service for your website - think of it as a place that makes your website available to everyone on the internet. It&amp;rsquo;s especially good for static websites (like those built with Hugo) because:&lt;/p></description></item><item><title>Youtube Test Copy</title><link>https://xtimesai.github.io/post/hugo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97_walmart_cucumber/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/hugo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97_walmart_cucumber/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/L34JL_3Jkyc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>As a beginner to Hugo, one of the first things you&amp;rsquo;ll want to do is create a custom theme for your blog. A custom theme allows you to personalize the look and feel of your website, making it unique and reflective of your brand.&lt;/p></description></item><item><title>在 Netlify 上免费托管您的 Hugo 网站</title><link>https://xtimesai.github.io/post/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</link><pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/%E5%9C%A8-netlify-%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E6%82%A8%E7%9A%84-hugo-%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="在-netlify-上免费托管您的-hugo-网站">在 Netlify 上免费托管您的 Hugo 网站&lt;/h1>
+&lt;h2 id="什么是-netlify">什么是 Netlify？&lt;/h2>
+&lt;p>Netlify 是一个免费的网站托管服务 - 可以将其视为让所有人都能在互联网上访问您网站的平台。它特别适合静态网站（如使用 Hugo 构建的网站），因为：&lt;/p>
+&lt;ul>
+&lt;li>基础使用完全免费&lt;/li>
+&lt;li>速度非常快&lt;/li>
+&lt;li>设置简单&lt;/li>
+&lt;li>当您进行更改时自动更新网站&lt;/li>
+&lt;/ul>
+&lt;h2 id="在-netlify-上设置您的网站">在 Netlify 上设置您的网站&lt;/h2>
+&lt;h3 id="第一步准备配置">第一步：准备配置&lt;/h3>
+&lt;p>在项目主文件夹中创建一个名为 &lt;code>netlify.toml&lt;/code> 的文件。此文件告诉 Netlify 如何处理您的网站：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[build]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>publish = &lt;span style="color:#b84">&amp;#34;public&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 告诉 Netlify 您的完成网站文件在哪里&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo --gc --minify&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 告诉 Netlify 使用 Hugo 构建您的网站&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 主网站的设置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.production.environment]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 指定使用的 Hugo 版本&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENV = &lt;span style="color:#b84">&amp;#34;production&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 告诉 Hugo 这是用于您的正式网站&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENABLEGITINFO = &lt;span style="color:#b84">&amp;#34;true&amp;#34;&lt;/span> &lt;span style="color:#998;font-style:italic"># 允许 Hugo 使用 Git 信息&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 不同部署场景的设置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.split1]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo --gc --minify --enableGitInfo&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.split1.environment]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENV = &lt;span style="color:#b84">&amp;#34;production&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 预览部署的设置（当您想测试更改时）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.deploy-preview]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.deploy-preview.environment]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#998;font-style:italic"># 分支部署的设置&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.branch-deploy]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>command = &lt;span style="color:#b84">&amp;#34;hugo -b $DEPLOY_PRIME_URL&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.branch-deploy.environment]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_VERSION = &lt;span style="color:#b84">&amp;#34;0.82.0&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[context.next.environment]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>HUGO_ENABLEGITINFO = &lt;span style="color:#b84">&amp;#34;true&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="第二步选择部署方式">第二步：选择部署方式&lt;/h3>
+&lt;p>您有两种方式将网站部署到 Netlify：&lt;/p></description></item><item><title>Markdown 入门指南：给初学者的详细说明</title><link>https://xtimesai.github.io/post/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</link><pubDate>Sat, 09 Nov 2024 09:06:12 -0500</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</guid><description>&lt;h1 id="markdown-入门指南给初学者的详细说明">Markdown 入门指南：给初学者的详细说明&lt;/h1>
+&lt;h2 id="什么是-markdown">什么是 Markdown？&lt;/h2>
+&lt;p>Markdown 是一种轻量级的文本格式化工具，它让你能够用简单的符号来美化文本。想象一下，它就像是一个更简单的 Word，但是用的是特殊符号而不是按钮来排版。&lt;/p>
+&lt;h2 id="为什么要用-markdown">为什么要用 Markdown？&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>简单易学&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>只需要记住几个符号&lt;/li>
+&lt;li>不需要复杂的软件&lt;/li>
+&lt;li>写作过程不被打断&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>通用性强&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>可以转换成网页&lt;/li>
+&lt;li>可以转换成 PDF&lt;/li>
+&lt;li>几乎所有平台都支持&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>实用场景广&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>写博客&lt;/li>
+&lt;li>做笔记&lt;/li>
+&lt;li>写文档&lt;/li>
+&lt;li>写说明书&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="基础语法示例">基础语法示例&lt;/h2>
+&lt;h3 id="1-标题的写法">1. 标题的写法&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999"># 一级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">&lt;/span>&lt;span style="color:#aaa">## 二级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#aaa">### 三级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>效果如下：&lt;/p></description></item><item><title>Install Hugo in Windows</title><link>https://xtimesai.github.io/post/install-hugo/</link><pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/install-hugo/</guid><description>&lt;p>Hugo comes in three versions: Standard, Extended, and Extended/Deploy. The Standard edition covers core functionalities, while Extended adds advanced options, with Extended/Deploy** offering further deployment features.&lt;/p>
+&lt;h3 id="setting-up-your-directories">Setting Up Your Directories&lt;/h3>
+&lt;ol>
+&lt;li>Open File Explorer and create a folder, e.g., &lt;code>C:\Hugo&lt;/code>, and inside it, a &lt;code>bin&lt;/code> folder.&lt;/li>
+&lt;/ol>
+&lt;h3 id="installing-hugo">Installing Hugo&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Download the latest Hugo executable from &lt;a href="https://github.com/gohugoio/hugo/releases/">Hugo releases&lt;/a>.&lt;/p></description></item><item><title>How to use Lightbi theme ?</title><link>https://xtimesai.github.io/post/use-this-theme/</link><pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/use-this-theme/</guid><description>&lt;p>In this post, we&amp;rsquo;ll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to &lt;a href="https://gohugo.io/getting-started/quick-start/">Hugo’s quick-start guide&lt;/a>.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Create a New Hugo Site&lt;/strong>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new site &amp;lt;name of site&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">cd&lt;/span> &amp;lt;name of site&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git init
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#999">echo&lt;/span> &lt;span style="color:#b84">&amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34;&lt;/span> &amp;gt;&amp;gt; config.toml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;p>After the above copy the contents of exampleSite to the content folder in your website.&lt;/p></description></item><item><title>Features of Lightbi</title><link>https://xtimesai.github.io/post/features-of-lightbi/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/features-of-lightbi/</guid><description>&lt;h3 id="general">General&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Three Main Content Sections:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Blog&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Notes&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Collections&lt;/strong> (Newsletter)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Responsive Design&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Built with a &lt;strong>mobile-first approach&lt;/strong> for seamless viewing on any device.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Card-Based Theme&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Flexible image placement options:
+&lt;ul>
+&lt;li>Image at the top of the card&lt;/li>
+&lt;li>Image in the middle of the card&lt;/li>
+&lt;li>Image at the bottom of the card&lt;/li>
+&lt;li>No image option&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Menu Location Indicator&lt;/strong>:&lt;/p></description></item><item><title>More about Lightbi</title><link>https://xtimesai.github.io/post/more-about-lightbi/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/more-about-lightbi/</guid><description>&lt;h2 id="wiki">Wiki&lt;/h2>
+&lt;p>Checkout the &lt;a href="https://github.com/binokochumolvarghese/lightbi-hugo/wiki">wiki&lt;/a> page for detailed documentation of the theme features.&lt;/p>
+&lt;h2 id="support--contribution">Support &amp;amp; Contribution&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Star 🌟 this &lt;a href="https://github.com/binokochumolvarghese/lightbi-hugo">repository&lt;/a>&lt;/strong> to show your support!&lt;/li>
+&lt;li>&lt;strong>Help spread the word&lt;/strong> about Hugo Lightbi by sharing it on social media and recommending it to your friends and colleagues.&lt;/li>
+&lt;li>&lt;strong>Found a bug?&lt;/strong> Report it via &lt;a href="https://github.com/binokochumolvarghese/lightbi-hugo/issues/new">GitHub Issues&lt;/a> to help us improve.&lt;/li>
+&lt;li>&lt;strong>Have feature ideas?&lt;/strong> Start a conversation in &lt;a href="https://github.com/binokochumolvarghese/lightbi-hugo/discussions">GitHub Discussions&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Got questions?&lt;/strong> Ask away in our &lt;a href="https://github.com/binokochumolvarghese/lightbi-hugo/discussions">GitHub Discussions&lt;/a> community.&lt;/li>
+&lt;/ul>
+&lt;h2 id="credits">Credits&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo&lt;/a> from which Lightbi was forked.&lt;/li>
+&lt;li>&lt;a href="https://unsplash.com/">Unsplash&lt;/a> for Images.&lt;/li>
+&lt;/ul>
+&lt;h2 id="about">About&lt;/h2>
+&lt;p>This is an adaptation of the &lt;a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo&lt;/a> by &lt;a href="https://github.com/halogenica">Michael Romero&lt;/a>. It supports most of the features of the original theme, and many new features. It has diverged from the original theme over time, with several updates.&lt;/p></description></item><item><title>Image Gallery Shortcode</title><link>https://xtimesai.github.io/post/image-gallery/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/image-gallery/</guid><description>&lt;div class="card alert alert-primary">
+ 
+ &lt;h5 class="card-title m-0">
+ Experimental feature
+ &lt;/h5>
+ 
+
+ &lt;p class="card-text text-muted fs-6 mt-0"> 
+ 
+ This feature is currently in experimental mode, so breaking changes may occur. Please use it carefully.
+ 
+ &lt;/p>
+&lt;/div>
+&lt;p>Here’s a custom Hugo shortcode that creates an image gallery in a masonry style using GLightbox, allowing you to specify a folder containing images. This approach will display images from a specified folder in a masonry layout, and each image will open in a lightbox when clicked.&lt;/p></description></item><item><title>Parameters in Lightbi</title><link>https://xtimesai.github.io/post/parameters/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><author>sample@gmail.com (Bino Kochumol Varghese)</author><guid>https://xtimesai.github.io/post/parameters/</guid><description>&lt;p>Below is a list of configurable parameters in the Lightbi theme, along with descriptions to help you customize your site effectively. You can be adjust the below parameters in your &lt;code>hugo.toml&lt;/code> file.&lt;/p></description></item></channel></rss>
