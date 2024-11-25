@@ -1,10 +1,14 @@
 {{ $img := false }}
 {{ if .Params.image }}
-  {{ with .Resources.Get .Params.image }}
-    {{ $img = . }}
-  {{ else }}
-    {{ with resources.Get .Params.image }}
+  {{ with .Resources.GetMatch (.Params.image | printf "*%s") }}
+    {{ if eq .MediaType.MainType "image" }}
       {{ $img = . }}
+    {{ end }}
+  {{ else }}
+    {{ with resources.GetMatch (.Params.image | printf "*%s") }}
+      {{ if eq .MediaType.MainType "image" }}
+        {{ $img = . }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
